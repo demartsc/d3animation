@@ -42,7 +42,7 @@ d3.json("data\\gamedata.json", function(error, data) {
       .call(d3.axisBottom(x))
     .append("text")
       .attr("y", 6)
-      .attr("dx", width-(width*.05))
+      .attr("dx", width-(width*.1))
       .attr("dy", "3em")
       .attr("fill", "#000")
       .text("Game Time in Seconds ->");
@@ -56,6 +56,26 @@ d3.json("data\\gamedata.json", function(error, data) {
       .attr("dy", "-4em")
       .attr("fill", "#000")
       .text("Win Probability, %");
+
+  g.append("g")
+      .attr("class","lineM")
+    .append("path")
+      .attr("stroke", "lightblue")
+      .attr("stroke-width", 2)
+      .style("opacity",0)
+      .attr("d", "M " + 0 + " " + y(0) + " L " + width + " " + y(0) + " Z");
+
+
+  d3.select(".lineM")
+    .append("text")
+     .attr("x", 0)
+     .attr("y", y(0))
+     .attr('text-anchor', 'left')
+     .style("stroke","lightblue")
+     .style("opacity",0)
+     .style("font-size","smaller")
+     .text("Median: " + 0);
+
 
   //the two paths draw the lines
   var path1 = g.append("path")
@@ -109,18 +129,94 @@ d3.json("data\\gamedata.json", function(error, data) {
           .delay(5000)
           .duration(2000)
           .style("opacity",0)
-          .on("end",barTransition);
+          .on("start",barTransition);
     }
 
     function barTransition() {
       // this section will handle the bar transitions within the visualization after the line transitions have been executed
       d3.selectAll(".bars")
         .transition()
-        .duration(2000)
-        .style("opacity",.5);
+          .duration(2000)
+          .style("opacity",.5)
+        .transition()
+          .delay(5000)
+          .duration(2000)
+          .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
+          .attr("y", function(d) { return y(Math.abs(d.team2_prob - d.team1_prob)); })
+          .attr("width", "4px")
+          .attr("height", function(d) { return height - y(Math.abs(d.team2_prob - d.team1_prob)); })
+          .on("start",updateMedian)
+        .transition()
+          .delay(5000)
+          .duration(2000)
+          .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
+          .attr("y", function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
+          .attr("width", "4px")
+          .attr("height", function(d) { return height - y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
+          .on("start",updateAxis)
+          .on("end",transformBars);
 
     }
 
+    function transformBars() {
+      d3.selectAll(".bars")
+        .transition()
+          .delay(5000)
+          .duration(2000)
+          .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
+          .attr("y", function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
+          .attr("height", function(d) { return height - y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
+          .on("start",updateMedian2)
+          .on("start",updateAxis);
+
+    }
+
+    function updateAxis() {
+      d3.selectAll(".axis--y")
+        .transition()
+          .duration(2000)
+          .call(d3.axisLeft(y3));    
+    }
+
+    function updateMedian() {
+      var yMedianValue = d3.median(data, function(d) { return Math.abs(d.team2_prob - d.team1_prob); });
+
+      var f = d3.format(".2f");
+
+      d3.selectAll(".lineM path")
+        .transition()
+          .duration(2000)
+          .style("opacity",1)
+          .attr("d", "M " + 0 + " " + y(yMedianValue) + " L " + width + " " + y(yMedianValue) + " Z");
+
+      d3.selectAll(".lineM text")
+        .transition()
+          .duration(2000)
+          .style("opacity",1)
+          .attr("x", 0)
+          .attr("y", y(yMedianValue+.02))
+          .text("Median: " + f(yMedianValue));
+    }
+
+    function updateMedian2() {
+      var yMedianValue = d3.median(data, function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); });
+
+      var f = d3.format(".2f");
+
+      d3.selectAll(".lineM path")
+        .transition()
+          .duration(2000)
+          .style("opacity",1)
+          .attr("d", "M " + 0 + " " + y3(yMedianValue) + " L " + width + " " + y3(yMedianValue) + " Z");
+
+      d3.selectAll(".lineM text")
+        .transition()
+          .duration(2000)
+          .style("opacity",1)
+          .attr("x", 0)
+          .attr("y", y3(yMedianValue+.02))
+          .text("Median: " + f(yMedianValue));
+    }
 /*
           .tween("lines",function () {
             return function (t) {
