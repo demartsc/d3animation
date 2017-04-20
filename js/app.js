@@ -108,7 +108,7 @@ d3.json("data\\gamedata.json", function(error, data) {
         .style("fill","grey")
         .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
         .attr("y", function(d) { return y(d.team1_prob > d.team2_prob ? d.team1_prob : d.team2_prob); })
-        .attr("width", "4px")
+        .attr("width", "2.5px")
         .attr("height", function(d) { return y2(d.team1_prob > d.team2_prob ? d.team1_prob-d.team2_prob : d.team2_prob-d.team1_prob); });
 
    var totalLength = path1.node().getTotalLength();
@@ -143,7 +143,6 @@ d3.json("data\\gamedata.json", function(error, data) {
           .duration(2000)
           .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
           .attr("y", function(d) { return y(Math.abs(d.team2_prob - d.team1_prob)); })
-          .attr("width", "4px")
           .attr("height", function(d) { return height - y(Math.abs(d.team2_prob - d.team1_prob)); })
           .on("start",updateMedian)
         .transition()
@@ -151,31 +150,20 @@ d3.json("data\\gamedata.json", function(error, data) {
           .duration(2000)
           .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
           .attr("y", function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
-          .attr("width", "4px")
           .attr("height", function(d) { return height - y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
           .on("start",updateAxis)
-          .on("end",transformBars);
-
-    }
-
-    function transformBars() {
-      d3.selectAll(".bars")
-        .transition()
-          .delay(5000)
-          .duration(2000)
-          .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
-          .attr("y", function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
-          .attr("height", function(d) { return height - y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
-          .on("start",updateMedian2)
-          .on("start",updateAxis);
-
+          .on("end",updateMedian2);
     }
 
     function updateAxis() {
       d3.selectAll(".axis--y")
         .transition()
           .duration(2000)
-          .call(d3.axisLeft(y3));    
+          .call(d3.axisLeft(y3));
+
+      d3.selectAll(".axis--y text")
+        .text("Close Game Index");
+
     }
 
     function updateMedian() {
@@ -199,7 +187,7 @@ d3.json("data\\gamedata.json", function(error, data) {
     }
 
     function updateMedian2() {
-      var yMedianValue = d3.median(data, function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); });
+      var yMedianValue = d3.median(data, function(d) { return 10-(10*(Math.abs(d.team2_prob - d.team1_prob))); });
 
       var f = d3.format(".2f");
 
@@ -211,12 +199,13 @@ d3.json("data\\gamedata.json", function(error, data) {
 
       d3.selectAll(".lineM text")
         .transition()
-          .duration(2000)
-          .style("opacity",1)
+          .duration(2000) 
           .attr("x", 0)
           .attr("y", y3(yMedianValue+.02))
+          .style("opacity",1)
           .text("Median: " + f(yMedianValue));
     }
+
 /*
           .tween("lines",function () {
             return function (t) {
