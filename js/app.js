@@ -195,6 +195,7 @@ d3.json("data\\gamedata.json", function(error, data) {
         .transition()
           .duration(2000)
           .style("opacity",1)
+          .style("stroke","steelblue")
           .attr("d", "M " + 0 + " " + y3(yMedianValue) + " L " + width + " " + y3(yMedianValue) + " Z");
 
       d3.selectAll(".lineM text")
@@ -203,6 +204,7 @@ d3.json("data\\gamedata.json", function(error, data) {
           .attr("x", 0)
           .attr("y", y3(yMedianValue+.02))
           .style("opacity",1)
+          .style("stroke","steelblue")
           .text("Median: " + f(yMedianValue));
     }
 
