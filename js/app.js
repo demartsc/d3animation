@@ -60,6 +60,7 @@ d3.json("data\\gamedata.json", function(error, data) {
   //the two paths draw the lines
   var path1 = g.append("path")
       .datum(data)
+      .attr("class","lineChart")
       .attr("fill", "none")
       .attr("stroke", "steelblue")
       .attr("stroke-linejoin", "round")
@@ -69,6 +70,7 @@ d3.json("data\\gamedata.json", function(error, data) {
 
   var path2 = g.append("path")
       .datum(data)
+      .attr("class","lineChart")
       .attr("fill", "none")
       .attr("stroke", "orange")
       .attr("stroke-linejoin", "round")
@@ -91,25 +93,50 @@ d3.json("data\\gamedata.json", function(error, data) {
 
    var totalLength = path1.node().getTotalLength();
 
-    d3.selectAll("path")
-      .attr("stroke-dasharray", totalLength + " " + totalLength)
-      .attr("stroke-dashoffset", totalLength)
-      .transition()
+   startTransition();
+
+   function startTransition() {
+
+      // this section will transition the line chart onto the screen and then fade it out
+      d3.selectAll(".lineChart")
+        .attr("stroke-dasharray", totalLength + " " + totalLength)
+        .attr("stroke-dashoffset", totalLength)
+        .transition()
+          .ease(d3.easeCircle)
+          .duration(2000)
+          .attr("stroke-dashoffset", 0)
+        .transition()
+          .delay(5000)
+          .duration(2000)
+          .style("opacity",0)
+          .on("end",barTransition);
+    }
+
+    function barTransition() {
+      // this section will handle the bar transitions within the visualization after the line transitions have been executed
+      d3.selectAll(".bars")
+        .transition()
         .duration(2000)
-        .tween("lines",function () {
-          return function (t) {
-              // run lines across the screen
-              d3.selectAll("path").attr("stroke-dashoffset", totalLength*(1-t));
-          }
-        }).each("end", function () {
-          d3.transition()
-            .duration(2000)
-            .tween("hideLines",function () {
-              return function (t) {
-                d3.selectAll("path").style("opacity",1-t);
-              }
-            })
-        });
+        .style("opacity",.5);
+
+    }
+
+/*
+          .tween("lines",function () {
+            return function (t) {
+                // run lines across the screen
+                d3.selectAll("path").attr("stroke-dashoffset", totalLength*(1-t));
+            }
+          }).each("end", function () {
+            d3.transition()
+              .duration(2000)
+              .tween("hideLines",function () {
+                return function (t) {
+                  d3.selectAll("path").style("opacity",1-t);
+                }
+              })
+          });
+*/
 /*
 
     path2
