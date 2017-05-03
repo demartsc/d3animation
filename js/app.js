@@ -155,7 +155,7 @@ d3.json("data\\gamedata.json", function(error, data) {
           .style("opacity",0)
         .transition()
           .duration(5000)
-          .text("Lastly, I felt it was hard to explain the median percentages, so I transposed them into a score I am calling the 'Close Game Index shown below. This is simply 10 - (10*[Median Percent Difference]).")
+          .text("Lastly, I felt it was hard to explain the median percentages, so I transposed them into a score I am calling the 'Close Game Index' shown below. This is simply 10 - (10*[Median Percent Difference]).")
           .style("opacity",1);
 
       //d3.select("#approach").transition().duration(2000).style("opacity",1);
