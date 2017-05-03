@@ -133,6 +133,33 @@ d3.json("data\\gamedata.json", function(error, data) {
     }
 
     function barTransition() {
+      d3.select("#approach").transition().duration(2000).style("opacity",0);
+
+      d3.select("#approach")
+        .style("opacity",0)
+        .text("In order to do that, we start by calculating the difference between the two lines at each moment of data capture throughout the game.")
+        .transition()
+          .duration(2000)
+          .style("opacity",1)
+        .transition()
+          .delay(5000)
+          .duration(1000)
+          .style("opacity",0)
+        .transition()
+          .duration(2000)
+          .text("The we calculate the median (to try and avoid skewing) across the difference for each moment in the game to come up with a 34.3% median in this example.")
+          .style("opacity",1)
+        .transition()
+          .delay(5000)
+          .duration(2000)
+          .style("opacity",0)
+        .transition()
+          .duration(5000)
+          .text("Lastly, I felt it was hard to explain the median percentages, so I transposed them into a score I am calling the 'Close Game Index shown below. This is simply 10 - (10*[Median Percent Difference]).")
+          .style("opacity",1);
+
+      //d3.select("#approach").transition().duration(2000).style("opacity",1);
+
       // this section will handle the bar transitions within the visualization after the line transitions have been executed
       d3.selectAll(".bars")
         .transition()
@@ -147,18 +174,20 @@ d3.json("data\\gamedata.json", function(error, data) {
           .on("start",updateMedian)
         .transition()
           .delay(5000)
-          .duration(2000)
+          .duration(5000)
           .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
           .attr("y", function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
           .attr("height", function(d) { return height - y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
-          .on("start",updateAxis)
-          .on("end",updateMedian2);
+          .on("start",updateAxis);
+          //.on("start",updateMedian2);
     }
 
     function updateAxis() {
+      updateMedian2();
+
       d3.selectAll(".axis--y")
         .transition()
-          .duration(2000)
+          .duration(4000)
           .call(d3.axisLeft(y3));
 
       d3.selectAll(".axis--y text")
@@ -169,7 +198,7 @@ d3.json("data\\gamedata.json", function(error, data) {
     function updateMedian() {
       var yMedianValue = d3.median(data, function(d) { return Math.abs(d.team2_prob - d.team1_prob); });
 
-      var f = d3.format(".2f");
+      var f = d3.format(".1f");
 
       d3.selectAll(".lineM path")
         .transition()
@@ -181,30 +210,26 @@ d3.json("data\\gamedata.json", function(error, data) {
         .transition()
           .duration(2000)
           .style("opacity",1)
-          .attr("x", 0)
+          .attr("x", 10)
           .attr("y", y(yMedianValue+.02))
-          .text("Median: " + f(yMedianValue));
+          .text("Median: " + f(yMedianValue*100) + "%");
     }
 
     function updateMedian2() {
       var yMedianValue = d3.median(data, function(d) { return 10-(10*(Math.abs(d.team2_prob - d.team1_prob))); });
 
-      var f = d3.format(".2f");
+      var f = d3.format(".1f");
 
       d3.selectAll(".lineM path")
         .transition()
-          .duration(2000)
-          .style("opacity",1)
-          .style("stroke","steelblue")
+          .duration(5000)
           .attr("d", "M " + 0 + " " + y3(yMedianValue) + " L " + width + " " + y3(yMedianValue) + " Z");
 
       d3.selectAll(".lineM text")
         .transition()
-          .duration(2000) 
-          .attr("x", 0)
-          .attr("y", y3(yMedianValue+.02))
-          .style("opacity",1)
-          .style("stroke","steelblue")
+          .duration(5000) 
+          .attr("x", x(1100))
+          .attr("y", y3(yMedianValue+.1))
           .text("Median: " + f(yMedianValue));
     }
 
