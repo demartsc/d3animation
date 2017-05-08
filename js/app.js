@@ -2,7 +2,7 @@ var svg = d3.select("svg"),
     margin = {top: 20, right: 80, bottom: 50, left: 50},
     width = svg.attr("width") - margin.left - margin.right,
     height = svg.attr("height") - margin.top - margin.bottom,
-    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    g = svg.append("g").attr("class","mainG").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var parseTime = d3.timeParse("%Y%m%d");
 
@@ -11,6 +11,8 @@ var x = d3.scaleLinear().range([0, width]),
     y2 = d3.scaleLinear().range([height, 0]),
     y3 = d3.scaleLinear().range([height, 0]),
     z = d3.scaleOrdinal(d3.schemeCategory10);
+
+var medianData = [] ;
 
 var line = d3.line()
     //.curve(d3.curveBasis)
@@ -21,6 +23,15 @@ var line2 = d3.line()
     //.curve(d3.curveBasis)
     .x(function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
     .y(function(d) { return y(d.team2_prob); });
+
+d3.json("data\\medianData.json"),function(error, mData) {
+  if (error) throw error;
+
+  console.log(mData);
+
+  medianData = mData;
+  console.log(medianData);
+}
 
 
 d3.json("data\\gamedata.json", function(error, data) {
@@ -129,7 +140,8 @@ d3.json("data\\gamedata.json", function(error, data) {
           .delay(5000)
           .duration(2000)
           .style("opacity",0)
-          .on("start",barTransition);
+          .on("start",barTransition)
+          .on("end",removeLineChart);
     }
 
     function barTransition() {
@@ -178,8 +190,60 @@ d3.json("data\\gamedata.json", function(error, data) {
           .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
           .attr("y", function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
           .attr("height", function(d) { return height - y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
-          .on("start",updateAxis);
-          //.on("start",updateMedian2);
+          .on("start",updateAxis)
+        .transition()
+          .delay(5000)
+          .duration(5000)
+          .attr("y", function(d) { return y3(0); })
+          .attr("height", function(d) { return height - y3(0); })
+          .on("end",removeBars);
+    }
+
+    function circleTransition() {
+      var yMedianValue = d3.median(data, function(d) { return 10-(10*(Math.abs(d.team2_prob - d.team1_prob))); });
+      var f = d3.format(".1f");
+
+      // we are going to bring line together and make the circle bigger while doing so
+      d3.selectAll(".lineM path")
+        .transition()
+          .duration(2000)
+          .style("opacity",0)
+          .attr("d", "M " + x(1200) + " " + y3(yMedianValue) + " L " + x(1200) + " " + y3(yMedianValue) + " Z");
+
+      d3.selectAll(".lineM text")
+        .transition()
+          .duration(2000)
+          .style("opacity",0);
+
+      g.append("g").attr("class","circleG").selectAll("circle")
+        .data([1])
+      .enter().append("circle")
+        .attr("class","circles")
+        .attr("id",function(d) {return "transition";})
+        .style("opacity",0)
+        .style("fill","lightblue")
+        .style("stroke","lightblue")
+        .attr("cx", function(d) { return x(1200); })
+        .attr("cy", function(d) { return y3(yMedianValue); })
+        .attr("r", 0)
+      .transition()
+        .duration(2000)
+        .style("opacity",1)
+        .attr("r",15);
+
+    d3.select(".circleG")
+      .append("text")
+       .attr("x", function(d) { return x(1200); })
+       .attr("y", function(d) { return y3(yMedianValue); })
+       //.attr('text-anchor', 'left')
+       .style("stroke","white")
+       .style("opacity",0)
+       .style("font-size","smaller")
+       .text(f(yMedianValue))
+      .transition()
+        .duration(2000)
+        .style("opacity",1);
+
     }
 
     function updateAxis() {
@@ -193,6 +257,17 @@ d3.json("data\\gamedata.json", function(error, data) {
       d3.selectAll(".axis--y text")
         .text("Close Game Index");
 
+    }
+
+    function removeLineChart() {
+      d3.selectAll(".lineChart").data([]).exit().remove();
+    }
+
+
+    function removeBars() {
+      d3.selectAll(".bars").data([]).exit().remove();
+
+      circleTransition();
     }
 
     function updateMedian() {
