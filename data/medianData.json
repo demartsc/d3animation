@@ -8,8 +8,9 @@
         "team1_team_id": "2046",
         "team1_team_name": "Austin Peay",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 0.16,
-        "Median_absProbDiff": 0.984
+        "closeGameIndex": 0.16,
+        "absProbDiff": 0.984,
+        "higherScore": 105
     },
     {
         "id": "400871250",
@@ -20,8 +21,9 @@
         "team1_team_id": "38",
         "team1_team_name": "Colorado",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 6.54,
-        "Median_absProbDiff": 0.346
+        "closeGameIndex": 6.54,
+        "absProbDiff": 0.346,
+        "higherScore": 74
     },
     {
         "id": "400871251",
@@ -32,8 +34,9 @@
         "team1_team_id": "2427",
         "team1_team_name": "North Carolina-Asheville",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 0.41,
-        "Median_absProbDiff": 0.959
+        "closeGameIndex": 0.41,
+        "absProbDiff": 0.959,
+        "higherScore": 86
     },
     {
         "id": "400871252",
@@ -44,8 +47,9 @@
         "team1_team_id": "2294",
         "team1_team_name": "Iowa",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 2.74,
-        "Median_absProbDiff": 0.726
+        "closeGameIndex": 2.74,
+        "absProbDiff": 0.726,
+        "higherScore": 72
     },
     {
         "id": "400871253",
@@ -56,8 +60,9 @@
         "team1_team_id": "107",
         "team1_team_name": "Holy Cross",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 0.13,
-        "Median_absProbDiff": 0.987
+        "closeGameIndex": 0.13,
+        "absProbDiff": 0.987,
+        "higherScore": 91
     },
     {
         "id": "400871254",
@@ -68,8 +73,9 @@
         "team1_team_id": "107",
         "team1_team_name": "Holy Cross",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 6.72,
-        "Median_absProbDiff": 0.328
+        "closeGameIndex": 6.72,
+        "absProbDiff": 0.328,
+        "higherScore": 59
     },
     {
         "id": "400871255",
@@ -80,8 +86,9 @@
         "team1_team_id": "150",
         "team1_team_name": "Duke",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 2.82,
-        "Median_absProbDiff": 0.718
+        "closeGameIndex": 2.82,
+        "absProbDiff": 0.718,
+        "higherScore": 93
     },
     {
         "id": "400871256",
@@ -92,8 +99,9 @@
         "team1_team_id": "2934",
         "team1_team_name": "Cal State Bakersfield",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 1.38,
-        "Median_absProbDiff": 0.862
+        "closeGameIndex": 1.38,
+        "absProbDiff": 0.862,
+        "higherScore": 82
     },
     {
         "id": "400871257",
@@ -104,8 +112,9 @@
         "team1_team_id": "2460",
         "team1_team_name": "Northern Iowa",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 5.9,
-        "Median_absProbDiff": 0.41
+        "closeGameIndex": 5.9,
+        "absProbDiff": 0.41,
+        "higherScore": 75
     },
     {
         "id": "400871258",
@@ -116,8 +125,9 @@
         "team1_team_id": "526",
         "team1_team_name": "Florida Gulf Coast",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 0.700000000000001,
-        "Median_absProbDiff": 0.93
+        "closeGameIndex": 0.700000000000001,
+        "absProbDiff": 0.93,
+        "higherScore": 83
     },
     {
         "id": "400871259",
@@ -128,8 +138,9 @@
         "team1_team_id": "236",
         "team1_team_name": "Chattanooga",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 0.940000000000001,
-        "Median_absProbDiff": 0.906
+        "closeGameIndex": 0.940000000000001,
+        "absProbDiff": 0.906,
+        "higherScore": 99
     },
     {
         "id": "400871260",
@@ -140,8 +151,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 0.37,
-        "Median_absProbDiff": 0.963
+        "closeGameIndex": 0.37,
+        "absProbDiff": 0.963,
+        "higherScore": 85
     },
     {
         "id": "400871261",
@@ -152,8 +164,9 @@
         "team1_team_id": "2617",
         "team1_team_name": "Stephen F. Austin",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 3.12,
-        "Median_absProbDiff": 0.688
+        "closeGameIndex": 3.12,
+        "absProbDiff": 0.688,
+        "higherScore": 70
     },
     {
         "id": "400871262",
@@ -164,8 +177,9 @@
         "team1_team_id": "130",
         "team1_team_name": "Michigan",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 7.58,
-        "Median_absProbDiff": 0.242
+        "closeGameIndex": 7.58,
+        "absProbDiff": 0.242,
+        "higherScore": 70
     },
     {
         "id": "400871263",
@@ -176,8 +190,9 @@
         "team1_team_id": "2086",
         "team1_team_name": "Butler",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 6.3,
-        "Median_absProbDiff": 0.37
+        "closeGameIndex": 6.3,
+        "absProbDiff": 0.37,
+        "higherScore": 71
     },
     {
         "id": "400871264",
@@ -188,8 +203,9 @@
         "team1_team_id": "2031",
         "team1_team_name": "Arkansas-Little Rock",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 2.84,
-        "Median_absProbDiff": 0.716
+        "closeGameIndex": 2.84,
+        "absProbDiff": 0.716,
+        "higherScore": 85
     },
     {
         "id": "400871265",
@@ -200,8 +216,9 @@
         "team1_team_id": "2168",
         "team1_team_name": "Dayton",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 7.48,
-        "Median_absProbDiff": 0.252
+        "closeGameIndex": 7.48,
+        "absProbDiff": 0.252,
+        "higherScore": 70
     },
     {
         "id": "400871266",
@@ -212,8 +229,9 @@
         "team1_team_id": "278",
         "team1_team_name": "Fresno State",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 1,
-        "Median_absProbDiff": 0.9
+        "closeGameIndex": 1,
+        "absProbDiff": 0.9,
+        "higherScore": 80
     },
     {
         "id": "400871270",
@@ -224,8 +242,9 @@
         "team1_team_id": "120",
         "team1_team_name": "Maryland",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 1.36,
-        "Median_absProbDiff": 0.864
+        "closeGameIndex": 1.36,
+        "absProbDiff": 0.864,
+        "higherScore": 79
     },
     {
         "id": "400871271",
@@ -236,8 +255,9 @@
         "team1_team_id": "25",
         "team1_team_name": "California",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 5.77,
-        "Median_absProbDiff": 0.423
+        "closeGameIndex": 5.77,
+        "absProbDiff": 0.423,
+        "higherScore": 77
     },
     {
         "id": "400871272",
@@ -248,8 +268,9 @@
         "team1_team_id": "2084",
         "team1_team_name": "Buffalo",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 2.7,
-        "Median_absProbDiff": 0.73
+        "closeGameIndex": 2.7,
+        "absProbDiff": 0.73,
+        "higherScore": 79
     },
     {
         "id": "400871273",
@@ -260,8 +281,9 @@
         "team1_team_id": "12",
         "team1_team_name": "Arizona",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 2.5,
-        "Median_absProbDiff": 0.75
+        "closeGameIndex": 2.5,
+        "absProbDiff": 0.75,
+        "higherScore": 65
     },
     {
         "id": "400871274",
@@ -272,8 +294,9 @@
         "team1_team_id": "238",
         "team1_team_name": "Vanderbilt",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 7.32,
-        "Median_absProbDiff": 0.268
+        "closeGameIndex": 7.32,
+        "absProbDiff": 0.268,
+        "higherScore": 70
     },
     {
         "id": "400871275",
@@ -284,8 +307,9 @@
         "team1_team_id": "2132",
         "team1_team_name": "Cincinnati",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 7.72,
-        "Median_absProbDiff": 0.228
+        "closeGameIndex": 7.72,
+        "absProbDiff": 0.228,
+        "higherScore": 78
     },
     {
         "id": "400871276",
@@ -296,8 +320,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 6.5,
-        "Median_absProbDiff": 0.35
+        "closeGameIndex": 6.5,
+        "absProbDiff": 0.35,
+        "higherScore": 79
     },
     {
         "id": "400871277",
@@ -308,8 +333,9 @@
         "team1_team_id": "204",
         "team1_team_name": "Oregon State",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 3.23,
-        "Median_absProbDiff": 0.677
+        "closeGameIndex": 3.23,
+        "absProbDiff": 0.677,
+        "higherScore": 75
     },
     {
         "id": "400871278",
@@ -320,8 +346,9 @@
         "team1_team_id": "2739",
         "team1_team_name": "Green Bay",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 1.27,
-        "Median_absProbDiff": 0.873
+        "closeGameIndex": 1.27,
+        "absProbDiff": 0.873,
+        "higherScore": 92
     },
     {
         "id": "400871279",
@@ -332,8 +359,9 @@
         "team1_team_id": "161",
         "team1_team_name": "Fairleigh Dickinson",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 0.44,
-        "Median_absProbDiff": 0.956
+        "closeGameIndex": 0.44,
+        "absProbDiff": 0.956,
+        "higherScore": 96
     },
     {
         "id": "400871280",
@@ -344,8 +372,9 @@
         "team1_team_id": "2507",
         "team1_team_name": "Providence",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 6.75,
-        "Median_absProbDiff": 0.325
+        "closeGameIndex": 6.75,
+        "absProbDiff": 0.325,
+        "higherScore": 70
     },
     {
         "id": "400871281",
@@ -356,8 +385,9 @@
         "team1_team_id": "2692",
         "team1_team_name": "Weber State",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 0.640000000000001,
-        "Median_absProbDiff": 0.936
+        "closeGameIndex": 0.640000000000001,
+        "absProbDiff": 0.936,
+        "higherScore": 71
     },
     {
         "id": "400871282",
@@ -368,8 +398,9 @@
         "team1_team_id": "221",
         "team1_team_name": "Pittsburgh",
         "team1_team_seed": "10",
-        "Median_closeGameIndex": 7.65,
-        "Median_absProbDiff": 0.235
+        "closeGameIndex": 7.65,
+        "absProbDiff": 0.235,
+        "higherScore": 47
     },
     {
         "id": "400871283",
@@ -380,8 +411,9 @@
         "team1_team_id": "130",
         "team1_team_name": "Michigan",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 8.32,
-        "Median_absProbDiff": 0.168
+        "closeGameIndex": 8.32,
+        "absProbDiff": 0.168,
+        "higherScore": 67
     },
     {
         "id": "400871284",
@@ -392,8 +424,9 @@
         "team1_team_id": "2261",
         "team1_team_name": "Hampton",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 0.140000000000001,
-        "Median_absProbDiff": 0.986
+        "closeGameIndex": 0.140000000000001,
+        "absProbDiff": 0.986,
+        "higherScore": 81
     },
     {
         "id": "400871285",
@@ -404,8 +437,9 @@
         "team1_team_id": "314",
         "team1_team_name": "Iona",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 0.760000000000002,
-        "Median_absProbDiff": 0.924
+        "closeGameIndex": 0.760000000000002,
+        "absProbDiff": 0.924,
+        "higherScore": 94
     },
     {
         "id": "400871286",
@@ -416,8 +450,9 @@
         "team1_team_id": "127",
         "team1_team_name": "Michigan State",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 6.46,
-        "Median_absProbDiff": 0.354
+        "closeGameIndex": 6.46,
+        "absProbDiff": 0.354,
+        "higherScore": 90
     },
     {
         "id": "400871287",
@@ -428,8 +463,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 2.32,
-        "Median_absProbDiff": 0.768
+        "closeGameIndex": 2.32,
+        "absProbDiff": 0.768,
+        "higherScore": 68
     },
     {
         "id": "400871543",
@@ -440,8 +476,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 8.00000000000001e-002,
-        "Median_absProbDiff": 0.992
+        "closeGameIndex": 8.00000000000001e-002,
+        "absProbDiff": 0.992,
+        "higherScore": 89
     },
     {
         "id": "400871544",
@@ -452,8 +489,9 @@
         "team1_team_id": "2",
         "team1_team_name": "Auburn",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 3.19,
-        "Median_absProbDiff": 0.681
+        "closeGameIndex": 3.19,
+        "absProbDiff": 0.681,
+        "higherScore": 68
     },
     {
         "id": "400871545",
@@ -464,8 +502,9 @@
         "team1_team_id": "52",
         "team1_team_name": "Florida State",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 2.16,
-        "Median_absProbDiff": 0.784
+        "closeGameIndex": 2.16,
+        "absProbDiff": 0.784,
+        "higherScore": 72
     },
     {
         "id": "400871546",
@@ -476,8 +515,9 @@
         "team1_team_id": "2623",
         "team1_team_name": "Missouri State",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 1.24,
-        "Median_absProbDiff": 0.876
+        "closeGameIndex": 1.24,
+        "absProbDiff": 0.876,
+        "higherScore": 74
     },
     {
         "id": "400871547",
@@ -488,8 +528,9 @@
         "team1_team_id": "305",
         "team1_team_name": "DePaul",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 9.99999999999996e-002,
-        "Median_absProbDiff": 0.99
+        "closeGameIndex": 9.99999999999996e-002,
+        "absProbDiff": 0.99,
+        "higherScore": 97
     },
     {
         "id": "400871548",
@@ -500,8 +541,9 @@
         "team1_team_id": "2110",
         "team1_team_name": "Central Arkansas",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 0.120000000000001,
-        "Median_absProbDiff": 0.988
+        "closeGameIndex": 0.120000000000001,
+        "absProbDiff": 0.988,
+        "higherScore": 87
     },
     {
         "id": "400871549",
@@ -512,8 +554,9 @@
         "team1_team_id": "197",
         "team1_team_name": "Oklahoma State",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 7.48,
-        "Median_absProbDiff": 0.252
+        "closeGameIndex": 7.48,
+        "absProbDiff": 0.252,
+        "higherScore": 65
     },
     {
         "id": "400871550",
@@ -524,8 +567,9 @@
         "team1_team_id": "204",
         "team1_team_name": "Oregon State",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 1.99999999999996e-002,
-        "Median_absProbDiff": 0.998
+        "closeGameIndex": 1.99999999999996e-002,
+        "absProbDiff": 0.998,
+        "higherScore": 73
     },
     {
         "id": "400871551",
@@ -536,8 +580,9 @@
         "team1_team_id": "2448",
         "team1_team_name": "North Carolina A&T",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 1.99999999999996e-002,
-        "Median_absProbDiff": 0.998
+        "closeGameIndex": 1.99999999999996e-002,
+        "absProbDiff": 0.998,
+        "higherScore": 95
     },
     {
         "id": "400871552",
@@ -548,8 +593,9 @@
         "team1_team_id": "61",
         "team1_team_name": "Georgia",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 7.34,
-        "Median_absProbDiff": 0.266
+        "closeGameIndex": 7.34,
+        "absProbDiff": 0.266,
+        "higherScore": 62
     },
     {
         "id": "400871553",
@@ -560,8 +606,9 @@
         "team1_team_id": "2390",
         "team1_team_name": "Miami (FL)",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 5.72,
-        "Median_absProbDiff": 0.428
+        "closeGameIndex": 5.72,
+        "absProbDiff": 0.428,
+        "higherScore": 74
     },
     {
         "id": "400871554",
@@ -572,8 +619,9 @@
         "team1_team_id": "2539",
         "team1_team_name": "San Francisco",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 0.140000000000001,
-        "Median_absProbDiff": 0.986
+        "closeGameIndex": 0.140000000000001,
+        "absProbDiff": 0.986,
+        "higherScore": 85
     },
     {
         "id": "400871555",
@@ -584,8 +632,9 @@
         "team1_team_id": "201",
         "team1_team_name": "Oklahoma",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 1.15,
-        "Median_absProbDiff": 0.885
+        "closeGameIndex": 1.15,
+        "absProbDiff": 0.885,
+        "higherScore": 61
     },
     {
         "id": "400871556",
@@ -596,8 +645,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 8.00000000000001e-002,
-        "Median_absProbDiff": 0.992
+        "closeGameIndex": 8.00000000000001e-002,
+        "absProbDiff": 0.992,
+        "higherScore": 85
     },
     {
         "id": "400871557",
@@ -608,8 +658,9 @@
         "team1_team_id": "219",
         "team1_team_name": "Pennsylvania",
         "team1_team_seed": "10",
-        "Median_closeGameIndex": 6.74,
-        "Median_absProbDiff": 0.326
+        "closeGameIndex": 6.74,
+        "absProbDiff": 0.326,
+        "higherScore": 65
     },
     {
         "id": "400871558",
@@ -620,8 +671,9 @@
         "team1_team_id": "314",
         "team1_team_name": "Iona",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 0.280000000000001,
-        "Median_absProbDiff": 0.972
+        "closeGameIndex": 0.280000000000001,
+        "absProbDiff": 0.972,
+        "higherScore": 74
     },
     {
         "id": "400871559",
@@ -632,8 +684,9 @@
         "team1_team_id": "294",
         "team1_team_name": "Jacksonville",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 0.32,
-        "Median_absProbDiff": 0.968
+        "closeGameIndex": 0.32,
+        "absProbDiff": 0.968,
+        "higherScore": 77
     },
     {
         "id": "400871560",
@@ -644,8 +697,9 @@
         "team1_team_id": "45",
         "team1_team_name": "George Washington",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 5.58,
-        "Median_absProbDiff": 0.442
+        "closeGameIndex": 5.58,
+        "absProbDiff": 0.442,
+        "higherScore": 56
     },
     {
         "id": "400871561",
@@ -656,8 +710,9 @@
         "team1_team_id": "399",
         "team1_team_name": "Albany (NY)",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 3.14,
-        "Median_absProbDiff": 0.686
+        "closeGameIndex": 3.14,
+        "absProbDiff": 0.686,
+        "higherScore": 61
     },
     {
         "id": "400871562",
@@ -668,8 +723,9 @@
         "team1_team_id": "349",
         "team1_team_name": "Army",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 6.00000000000005e-002,
-        "Median_absProbDiff": 0.994
+        "closeGameIndex": 6.00000000000005e-002,
+        "absProbDiff": 0.994,
+        "higherScore": 73
     },
     {
         "id": "400871563",
@@ -680,8 +736,9 @@
         "team1_team_id": "163",
         "team1_team_name": "Princeton",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 6.7,
-        "Median_absProbDiff": 0.33
+        "closeGameIndex": 6.7,
+        "absProbDiff": 0.33,
+        "higherScore": 74
     },
     {
         "id": "400871564",
@@ -692,8 +749,9 @@
         "team1_team_id": "2084",
         "team1_team_name": "Buffalo",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 3.99999999999991e-002,
-        "Median_absProbDiff": 0.996
+        "closeGameIndex": 3.99999999999991e-002,
+        "absProbDiff": 0.996,
+        "higherScore": 88
     },
     {
         "id": "400871565",
@@ -704,8 +762,9 @@
         "team1_team_id": "2739",
         "team1_team_name": "Green Bay",
         "team1_team_seed": "10",
-        "Median_closeGameIndex": 6.12,
-        "Median_absProbDiff": 0.388
+        "closeGameIndex": 6.12,
+        "absProbDiff": 0.388,
+        "higherScore": 59
     },
     {
         "id": "400871566",
@@ -716,8 +775,9 @@
         "team1_team_id": "9",
         "team1_team_name": "Arizona State",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 8.00000000000001e-002,
-        "Median_absProbDiff": 0.992
+        "closeGameIndex": 8.00000000000001e-002,
+        "absProbDiff": 0.992,
+        "higherScore": 74
     },
     {
         "id": "400871567",
@@ -728,8 +788,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0,
-        "Median_absProbDiff": 1
+        "closeGameIndex": 0,
+        "absProbDiff": 1,
+        "higherScore": 101
     },
     {
         "id": "400871568",
@@ -740,8 +801,9 @@
         "team1_team_id": "2184",
         "team1_team_name": "Duquesne",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 5.28,
-        "Median_absProbDiff": 0.472
+        "closeGameIndex": 5.28,
+        "absProbDiff": 0.472,
+        "higherScore": 97
     },
     {
         "id": "400871569",
@@ -752,8 +814,9 @@
         "team1_team_id": "236",
         "team1_team_name": "Chattanooga",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 1.68,
-        "Median_absProbDiff": 0.832
+        "closeGameIndex": 1.68,
+        "absProbDiff": 0.832,
+        "higherScore": 60
     },
     {
         "id": "400871570",
@@ -764,8 +827,9 @@
         "team1_team_id": "2057",
         "team1_team_name": "Belmont",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 1.32,
-        "Median_absProbDiff": 0.868
+        "closeGameIndex": 1.32,
+        "absProbDiff": 0.868,
+        "higherScore": 74
     },
     {
         "id": "400871571",
@@ -776,8 +840,9 @@
         "team1_team_id": "36",
         "team1_team_name": "Colorado State",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 4.94,
-        "Median_absProbDiff": 0.506
+        "closeGameIndex": 4.94,
+        "absProbDiff": 0.506,
+        "higherScore": 48
     },
     {
         "id": "400871572",
@@ -788,8 +853,9 @@
         "team1_team_id": "62",
         "team1_team_name": "Hawaii",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 0.24,
-        "Median_absProbDiff": 0.976
+        "closeGameIndex": 0.24,
+        "absProbDiff": 0.976,
+        "higherScore": 66
     },
     {
         "id": "400871573",
@@ -800,8 +866,9 @@
         "team1_team_id": "252",
         "team1_team_name": "Brigham Young",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 3.39,
-        "Median_absProbDiff": 0.661
+        "closeGameIndex": 3.39,
+        "absProbDiff": 0.661,
+        "higherScore": 78
     },
     {
         "id": "400871574",
@@ -812,8 +879,9 @@
         "team1_team_id": "2011",
         "team1_team_name": "Alabama State",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 0.18,
-        "Median_absProbDiff": 0.982
+        "closeGameIndex": 0.18,
+        "absProbDiff": 0.982,
+        "higherScore": 86
     },
     {
         "id": "400872082",
@@ -824,8 +892,9 @@
         "team1_team_id": "150",
         "team1_team_name": "Duke",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 0.940000000000001,
-        "Median_absProbDiff": 0.906
+        "closeGameIndex": 0.940000000000001,
+        "absProbDiff": 0.906,
+        "higherScore": 71
     },
     {
         "id": "400872129",
@@ -836,8 +905,9 @@
         "team1_team_id": "2086",
         "team1_team_name": "Butler",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 4.08,
-        "Median_absProbDiff": 0.592
+        "closeGameIndex": 4.08,
+        "absProbDiff": 0.592,
+        "higherScore": 77
     },
     {
         "id": "400872131",
@@ -848,8 +918,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 0.4,
-        "Median_absProbDiff": 0.96
+        "closeGameIndex": 0.4,
+        "absProbDiff": 0.96,
+        "higherScore": 73
     },
     {
         "id": "400872132",
@@ -860,8 +931,9 @@
         "team1_team_id": "2031",
         "team1_team_name": "Arkansas-Little Rock",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 0.99,
-        "Median_absProbDiff": 0.901
+        "closeGameIndex": 0.99,
+        "absProbDiff": 0.901,
+        "higherScore": 78
     },
     {
         "id": "400872163",
@@ -872,8 +944,9 @@
         "team1_team_id": "2390",
         "team1_team_name": "Miami (FL)",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 3.8,
-        "Median_absProbDiff": 0.62
+        "closeGameIndex": 3.8,
+        "absProbDiff": 0.62,
+        "higherScore": 65
     },
     {
         "id": "400872165",
@@ -884,8 +957,9 @@
         "team1_team_id": "153",
         "team1_team_name": "North Carolina",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 1.82,
-        "Median_absProbDiff": 0.818
+        "closeGameIndex": 1.82,
+        "absProbDiff": 0.818,
+        "higherScore": 85
     },
     {
         "id": "400872166",
@@ -896,8 +970,9 @@
         "team1_team_id": "84",
         "team1_team_name": "Indiana",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 6.58,
-        "Median_absProbDiff": 0.342
+        "closeGameIndex": 6.58,
+        "absProbDiff": 0.342,
+        "higherScore": 73
     },
     {
         "id": "400872167",
@@ -908,8 +983,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 1.76,
-        "Median_absProbDiff": 0.824
+        "closeGameIndex": 1.76,
+        "absProbDiff": 0.824,
+        "higherScore": 82
     },
     {
         "id": "400872214",
@@ -920,8 +996,9 @@
         "team1_team_id": "2294",
         "team1_team_name": "Iowa",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 0.120000000000001,
-        "Median_absProbDiff": 0.988
+        "closeGameIndex": 0.120000000000001,
+        "absProbDiff": 0.988,
+        "higherScore": 87
     },
     {
         "id": "400872218",
@@ -932,8 +1009,9 @@
         "team1_team_id": "62",
         "team1_team_name": "Hawaii",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 4.48,
-        "Median_absProbDiff": 0.552
+        "closeGameIndex": 4.48,
+        "absProbDiff": 0.552,
+        "higherScore": 73
     },
     {
         "id": "400872219",
@@ -944,8 +1022,9 @@
         "team1_team_id": "305",
         "team1_team_name": "DePaul",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 7.68,
-        "Median_absProbDiff": 0.232
+        "closeGameIndex": 7.68,
+        "absProbDiff": 0.232,
+        "higherScore": 73
     },
     {
         "id": "400872220",
@@ -956,8 +1035,9 @@
         "team1_team_id": "194",
         "team1_team_name": "Ohio State",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 2.77,
-        "Median_absProbDiff": 0.723
+        "closeGameIndex": 2.77,
+        "absProbDiff": 0.723,
+        "higherScore": 88
     },
     {
         "id": "400872221",
@@ -968,8 +1048,9 @@
         "team1_team_id": "127",
         "team1_team_name": "Michigan State",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 5.59,
-        "Median_absProbDiff": 0.441
+        "closeGameIndex": 5.59,
+        "absProbDiff": 0.441,
+        "higherScore": 74
     },
     {
         "id": "400872222",
@@ -980,8 +1061,9 @@
         "team1_team_id": "399",
         "team1_team_name": "Albany (NY)",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 0.9,
-        "Median_absProbDiff": 0.91
+        "closeGameIndex": 0.9,
+        "absProbDiff": 0.91,
+        "higherScore": 76
     },
     {
         "id": "400872223",
@@ -992,8 +1074,9 @@
         "team1_team_id": "2393",
         "team1_team_name": "Middle Tennessee",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 2.4,
-        "Median_absProbDiff": 0.76
+        "closeGameIndex": 2.4,
+        "absProbDiff": 0.76,
+        "higherScore": 75
     },
     {
         "id": "400872224",
@@ -1004,8 +1087,9 @@
         "team1_team_id": "201",
         "team1_team_name": "Oklahoma",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 1.44,
-        "Median_absProbDiff": 0.856
+        "closeGameIndex": 1.44,
+        "absProbDiff": 0.856,
+        "higherScore": 85
     },
     {
         "id": "400872226",
@@ -1016,8 +1100,9 @@
         "team1_team_id": "2",
         "team1_team_name": "Auburn",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 3.99999999999991e-002,
-        "Median_absProbDiff": 0.996
+        "closeGameIndex": 3.99999999999991e-002,
+        "absProbDiff": 0.996,
+        "higherScore": 84
     },
     {
         "id": "400872227",
@@ -1028,8 +1113,9 @@
         "team1_team_id": "9",
         "team1_team_name": "Arizona State",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 5.38,
-        "Median_absProbDiff": 0.462
+        "closeGameIndex": 5.38,
+        "absProbDiff": 0.462,
+        "higherScore": 75
     },
     {
         "id": "400872228",
@@ -1040,8 +1126,9 @@
         "team1_team_id": "204",
         "team1_team_name": "Oregon State",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 0.26,
-        "Median_absProbDiff": 0.974
+        "closeGameIndex": 0.26,
+        "absProbDiff": 0.974,
+        "higherScore": 69
     },
     {
         "id": "400872229",
@@ -1052,8 +1139,9 @@
         "team1_team_id": "2460",
         "team1_team_name": "Northern Iowa",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 4.76,
-        "Median_absProbDiff": 0.524
+        "closeGameIndex": 4.76,
+        "absProbDiff": 0.524,
+        "higherScore": 92
     },
     {
         "id": "400872251",
@@ -1064,8 +1152,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 7.29,
-        "Median_absProbDiff": 0.271
+        "closeGameIndex": 7.29,
+        "absProbDiff": 0.271,
+        "higherScore": 76
     },
     {
         "id": "400872252",
@@ -1076,8 +1165,9 @@
         "team1_team_id": "2306",
         "team1_team_name": "Kansas State",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 9.99999999999996e-002,
-        "Median_absProbDiff": 0.99
+        "closeGameIndex": 9.99999999999996e-002,
+        "absProbDiff": 0.99,
+        "higherScore": 73
     },
     {
         "id": "400872255",
@@ -1088,8 +1178,9 @@
         "team1_team_id": "2483",
         "team1_team_name": "Oregon",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 2.74,
-        "Median_absProbDiff": 0.726
+        "closeGameIndex": 2.74,
+        "absProbDiff": 0.726,
+        "higherScore": 69
     },
     {
         "id": "400872259",
@@ -1100,8 +1191,9 @@
         "team1_team_id": "275",
         "team1_team_name": "Wisconsin",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 7.6,
-        "Median_absProbDiff": 0.24
+        "closeGameIndex": 7.6,
+        "absProbDiff": 0.24,
+        "higherScore": 66
     },
     {
         "id": "400872291",
@@ -1112,8 +1204,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 8.00000000000001e-002,
-        "Median_absProbDiff": 0.992
+        "closeGameIndex": 8.00000000000001e-002,
+        "absProbDiff": 0.992,
+        "higherScore": 97
     },
     {
         "id": "400872310",
@@ -1124,8 +1217,9 @@
         "team1_team_id": "120",
         "team1_team_name": "Maryland",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 3.24,
-        "Median_absProbDiff": 0.676
+        "closeGameIndex": 3.24,
+        "absProbDiff": 0.676,
+        "higherScore": 74
     },
     {
         "id": "400872311",
@@ -1136,8 +1230,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 1.76,
-        "Median_absProbDiff": 0.824
+        "closeGameIndex": 1.76,
+        "absProbDiff": 0.824,
+        "higherScore": 79
     },
     {
         "id": "400872312",
@@ -1148,8 +1243,9 @@
         "team1_team_id": "52",
         "team1_team_name": "Florida State",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 1.54,
-        "Median_absProbDiff": 0.846
+        "closeGameIndex": 1.54,
+        "absProbDiff": 0.846,
+        "higherScore": 74
     },
     {
         "id": "400872330",
@@ -1160,8 +1256,9 @@
         "team1_team_id": "66",
         "team1_team_name": "Iowa State",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 1.24,
-        "Median_absProbDiff": 0.876
+        "closeGameIndex": 1.24,
+        "absProbDiff": 0.876,
+        "higherScore": 84
     },
     {
         "id": "400872333",
@@ -1172,8 +1269,9 @@
         "team1_team_id": "2305",
         "team1_team_name": "Kansas",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 4.73,
-        "Median_absProbDiff": 0.527
+        "closeGameIndex": 4.73,
+        "absProbDiff": 0.527,
+        "higherScore": 79
     },
     {
         "id": "400872334",
@@ -1184,8 +1282,9 @@
         "team1_team_id": "58",
         "team1_team_name": "South Florida",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 2.46,
-        "Median_absProbDiff": 0.754
+        "closeGameIndex": 2.46,
+        "absProbDiff": 0.754,
+        "higherScore": 72
     },
     {
         "id": "400872335",
@@ -1196,8 +1295,9 @@
         "team1_team_id": "84",
         "team1_team_name": "Indiana",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 0.870000000000001,
-        "Median_absProbDiff": 0.913
+        "closeGameIndex": 0.870000000000001,
+        "absProbDiff": 0.913,
+        "higherScore": 87
     },
     {
         "id": "400872336",
@@ -1208,8 +1308,9 @@
         "team1_team_id": "2571",
         "team1_team_name": "South Dakota State",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 2.05,
-        "Median_absProbDiff": 0.795
+        "closeGameIndex": 2.05,
+        "absProbDiff": 0.795,
+        "higherScore": 66
     },
     {
         "id": "400872338",
@@ -1220,8 +1321,9 @@
         "team1_team_id": "142",
         "team1_team_name": "Missouri",
         "team1_team_seed": "10",
-        "Median_closeGameIndex": 0.5,
-        "Median_absProbDiff": 0.95
+        "closeGameIndex": 0.5,
+        "absProbDiff": 0.95,
+        "higherScore": 73
     },
     {
         "id": "400872339",
@@ -1232,8 +1334,9 @@
         "team1_team_id": "84",
         "team1_team_name": "Indiana",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 0.880000000000001,
-        "Median_absProbDiff": 0.912
+        "closeGameIndex": 0.880000000000001,
+        "absProbDiff": 0.912,
+        "higherScore": 101
     },
     {
         "id": "400872358",
@@ -1244,8 +1347,9 @@
         "team1_team_id": "2390",
         "team1_team_name": "Miami (FL)",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 1.7,
-        "Median_absProbDiff": 0.83
+        "closeGameIndex": 1.7,
+        "absProbDiff": 0.83,
+        "higherScore": 92
     },
     {
         "id": "400872390",
@@ -1256,8 +1360,9 @@
         "team1_team_id": "201",
         "team1_team_name": "Oklahoma",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 0.9,
-        "Median_absProbDiff": 0.91
+        "closeGameIndex": 0.9,
+        "absProbDiff": 0.91,
+        "higherScore": 77
     },
     {
         "id": "400872391",
@@ -1268,8 +1373,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 6.5,
-        "Median_absProbDiff": 0.35
+        "closeGameIndex": 6.5,
+        "absProbDiff": 0.35,
+        "higherScore": 63
     },
     {
         "id": "400872392",
@@ -1280,8 +1386,9 @@
         "team1_team_id": "2579",
         "team1_team_name": "South Carolina",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 2.4,
-        "Median_absProbDiff": 0.76
+        "closeGameIndex": 2.4,
+        "absProbDiff": 0.76,
+        "higherScore": 80
     },
     {
         "id": "400872394",
@@ -1292,8 +1399,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 7.06,
-        "Median_absProbDiff": 0.294
+        "closeGameIndex": 7.06,
+        "absProbDiff": 0.294,
+        "higherScore": 61
     },
     {
         "id": "400872395",
@@ -1304,8 +1412,9 @@
         "team1_team_id": "305",
         "team1_team_name": "DePaul",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 2.18,
-        "Median_absProbDiff": 0.782
+        "closeGameIndex": 2.18,
+        "absProbDiff": 0.782,
+        "higherScore": 83
     },
     {
         "id": "400872396",
@@ -1316,8 +1425,9 @@
         "team1_team_id": "194",
         "team1_team_name": "Ohio State",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 4.56,
-        "Median_absProbDiff": 0.544
+        "closeGameIndex": 4.56,
+        "absProbDiff": 0.544,
+        "higherScore": 78
     },
     {
         "id": "400872397",
@@ -1328,8 +1438,9 @@
         "team1_team_id": "150",
         "team1_team_name": "Duke",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 4.4,
-        "Median_absProbDiff": 0.56
+        "closeGameIndex": 4.4,
+        "absProbDiff": 0.56,
+        "higherScore": 82
     },
     {
         "id": "400872570",
@@ -1340,8 +1451,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0.620000000000001,
-        "Median_absProbDiff": 0.938
+        "closeGameIndex": 0.620000000000001,
+        "absProbDiff": 0.938,
+        "higherScore": 78
     },
     {
         "id": "400872574",
@@ -1352,8 +1464,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 4.14,
-        "Median_absProbDiff": 0.586
+        "closeGameIndex": 4.14,
+        "absProbDiff": 0.586,
+        "higherScore": 85
     },
     {
         "id": "400872578",
@@ -1364,8 +1477,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0,
-        "Median_absProbDiff": 1
+        "closeGameIndex": 0,
+        "absProbDiff": 1,
+        "higherScore": 98
     },
     {
         "id": "400872579",
@@ -1376,8 +1490,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 5.38,
-        "Median_absProbDiff": 0.462
+        "closeGameIndex": 5.38,
+        "absProbDiff": 0.462,
+        "higherScore": 90
     },
     {
         "id": "400872581",
@@ -1388,8 +1503,9 @@
         "team1_team_id": "251",
         "team1_team_name": "Texas",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 7.24,
-        "Median_absProbDiff": 0.276
+        "closeGameIndex": 7.24,
+        "absProbDiff": 0.276,
+        "higherScore": 72
     },
     {
         "id": "400873025",
@@ -1400,8 +1516,9 @@
         "team1_team_id": "2305",
         "team1_team_name": "Kansas",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 7.34,
-        "Median_absProbDiff": 0.266
+        "closeGameIndex": 7.34,
+        "absProbDiff": 0.266,
+        "higherScore": 64
     },
     {
         "id": "400873026",
@@ -1412,8 +1529,9 @@
         "team1_team_id": "201",
         "team1_team_name": "Oklahoma",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 1.09,
-        "Median_absProbDiff": 0.891
+        "closeGameIndex": 1.09,
+        "absProbDiff": 0.891,
+        "higherScore": 80
     },
     {
         "id": "400873153",
@@ -1424,8 +1542,9 @@
         "team1_team_id": "24",
         "team1_team_name": "Stanford",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 3.56,
-        "Median_absProbDiff": 0.644
+        "closeGameIndex": 3.56,
+        "absProbDiff": 0.644,
+        "higherScore": 85
     },
     {
         "id": "400873154",
@@ -1436,8 +1555,9 @@
         "team1_team_id": "183",
         "team1_team_name": "Syracuse",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 4.54,
-        "Median_absProbDiff": 0.546
+        "closeGameIndex": 4.54,
+        "absProbDiff": 0.546,
+        "higherScore": 89
     },
     {
         "id": "400873156",
@@ -1448,8 +1568,9 @@
         "team1_team_id": "183",
         "team1_team_name": "Syracuse",
         "team1_team_seed": "10",
-        "Median_closeGameIndex": 2.02,
-        "Median_absProbDiff": 0.798
+        "closeGameIndex": 2.02,
+        "absProbDiff": 0.798,
+        "higherScore": 68
     },
     {
         "id": "400873157",
@@ -1460,8 +1581,9 @@
         "team1_team_id": "153",
         "team1_team_name": "North Carolina",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 2.46,
-        "Median_absProbDiff": 0.754
+        "closeGameIndex": 2.46,
+        "absProbDiff": 0.754,
+        "higherScore": 88
     },
     {
         "id": "400873194",
@@ -1472,8 +1594,9 @@
         "team1_team_id": "183",
         "team1_team_name": "Syracuse",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 0.940000000000001,
-        "Median_absProbDiff": 0.906
+        "closeGameIndex": 0.940000000000001,
+        "absProbDiff": 0.906,
+        "higherScore": 80
     },
     {
         "id": "400873196",
@@ -1484,8 +1607,9 @@
         "team1_team_id": "153",
         "team1_team_name": "North Carolina",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 1.73,
-        "Median_absProbDiff": 0.827
+        "closeGameIndex": 1.73,
+        "absProbDiff": 0.827,
+        "higherScore": 83
     },
     {
         "id": "400873210",
@@ -1496,8 +1620,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0.220000000000001,
-        "Median_absProbDiff": 0.978
+        "closeGameIndex": 0.220000000000001,
+        "absProbDiff": 0.978,
+        "higherScore": 86
     },
     {
         "id": "400873211",
@@ -1508,8 +1633,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 6.44,
-        "Median_absProbDiff": 0.356
+        "closeGameIndex": 6.44,
+        "absProbDiff": 0.356,
+        "higherScore": 60
     },
     {
         "id": "400873214",
@@ -1520,8 +1646,9 @@
         "team1_team_id": "201",
         "team1_team_name": "Oklahoma",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 1.57,
-        "Median_absProbDiff": 0.843
+        "closeGameIndex": 1.57,
+        "absProbDiff": 0.843,
+        "higherScore": 95
     },
     {
         "id": "400873302",
@@ -1532,8 +1659,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 9.99999999999996e-002,
-        "Median_absProbDiff": 0.99
+        "closeGameIndex": 9.99999999999996e-002,
+        "absProbDiff": 0.99,
+        "higherScore": 80
     },
     {
         "id": "400873651",
@@ -1544,8 +1672,9 @@
         "team1_team_id": "153",
         "team1_team_name": "North Carolina",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 7.22,
-        "Median_absProbDiff": 0.278
+        "closeGameIndex": 7.22,
+        "absProbDiff": 0.278,
+        "higherScore": 77
     },
     {
         "id": "400873690",
@@ -1556,8 +1685,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 6.00000000000005e-002,
-        "Median_absProbDiff": 0.994
+        "closeGameIndex": 6.00000000000005e-002,
+        "absProbDiff": 0.994,
+        "higherScore": 82
     },
     {
         "id": "400946417",
@@ -1568,8 +1698,9 @@
         "team1_team_id": "116",
         "team1_team_name": "Mount St. Mary's",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 0.7,
-        "Median_absProbDiff": 0.93
+        "closeGameIndex": 0.7,
+        "absProbDiff": 0.93,
+        "higherScore": 76
     },
     {
         "id": "400946418",
@@ -1580,8 +1711,9 @@
         "team1_team_id": "2193",
         "team1_team_name": "East Tennessee State",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 2,
-        "Median_absProbDiff": 0.8
+        "closeGameIndex": 2,
+        "absProbDiff": 0.8,
+        "higherScore": 80
     },
     {
         "id": "400946419",
@@ -1592,8 +1724,9 @@
         "team1_team_id": "150",
         "team1_team_name": "Duke",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 0.600000000000001,
-        "Median_absProbDiff": 0.94
+        "closeGameIndex": 0.600000000000001,
+        "absProbDiff": 0.94,
+        "higherScore": 87
     },
     {
         "id": "400946420",
@@ -1604,8 +1737,9 @@
         "team1_team_id": "30",
         "team1_team_name": "Southern California",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 3.01,
-        "Median_absProbDiff": 0.699
+        "closeGameIndex": 3.01,
+        "absProbDiff": 0.699,
+        "higherScore": 66
     },
     {
         "id": "400946421",
@@ -1616,8 +1750,9 @@
         "team1_team_id": "2305",
         "team1_team_name": "Kansas",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 9.99999999999996e-002,
-        "Median_absProbDiff": 0.99
+        "closeGameIndex": 9.99999999999996e-002,
+        "absProbDiff": 0.99,
+        "higherScore": 100
     },
     {
         "id": "400946422",
@@ -1628,8 +1763,9 @@
         "team1_team_id": "2509",
         "team1_team_name": "Purdue",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 2.86,
-        "Median_absProbDiff": 0.714
+        "closeGameIndex": 2.86,
+        "absProbDiff": 0.714,
+        "higherScore": 80
     },
     {
         "id": "400946423",
@@ -1640,8 +1776,9 @@
         "team1_team_id": "55",
         "team1_team_name": "Jacksonville State",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 0.920000000000002,
-        "Median_absProbDiff": 0.908
+        "closeGameIndex": 0.920000000000002,
+        "absProbDiff": 0.908,
+        "higherScore": 78
     },
     {
         "id": "400946424",
@@ -1652,8 +1789,9 @@
         "team1_team_id": "156",
         "team1_team_name": "Creighton",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 4.78,
-        "Median_absProbDiff": 0.522
+        "closeGameIndex": 4.78,
+        "absProbDiff": 0.522,
+        "higherScore": 84
     },
     {
         "id": "400946425",
@@ -1664,8 +1802,9 @@
         "team1_team_id": "153",
         "team1_team_name": "North Carolina",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 7.00000000000003e-002,
-        "Median_absProbDiff": 0.993
+        "closeGameIndex": 7.00000000000003e-002,
+        "absProbDiff": 0.993,
+        "higherScore": 103
     },
     {
         "id": "400946427",
@@ -1676,8 +1815,9 @@
         "team1_team_id": "259",
         "team1_team_name": "Virginia Tech",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 3.34,
-        "Median_absProbDiff": 0.666
+        "closeGameIndex": 3.34,
+        "absProbDiff": 0.666,
+        "higherScore": 84
     },
     {
         "id": "400946428",
@@ -1688,8 +1828,9 @@
         "team1_team_id": "350",
         "team1_team_name": "North Carolina-Wilmington",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 3.94,
-        "Median_absProbDiff": 0.606
+        "closeGameIndex": 3.94,
+        "absProbDiff": 0.606,
+        "higherScore": 76
     },
     {
         "id": "400946429",
@@ -1700,8 +1841,9 @@
         "team1_team_id": "269",
         "team1_team_name": "Marquette",
         "team1_team_seed": "10",
-        "Median_closeGameIndex": 7.52,
-        "Median_absProbDiff": 0.248
+        "closeGameIndex": 7.52,
+        "absProbDiff": 0.248,
+        "higherScore": 93
     },
     {
         "id": "400946430",
@@ -1712,8 +1854,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 2.46,
-        "Median_absProbDiff": 0.754
+        "closeGameIndex": 2.46,
+        "absProbDiff": 0.754,
+        "higherScore": 91
     },
     {
         "id": "400946431",
@@ -1724,8 +1867,9 @@
         "team1_team_id": "2390",
         "team1_team_name": "Miami (FL)",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 3.22,
-        "Median_absProbDiff": 0.678
+        "closeGameIndex": 3.22,
+        "absProbDiff": 0.678,
+        "higherScore": 78
     },
     {
         "id": "400946432",
@@ -1736,8 +1880,9 @@
         "team1_team_id": "66",
         "team1_team_name": "Iowa State",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 1.39,
-        "Median_absProbDiff": 0.861
+        "closeGameIndex": 1.39,
+        "absProbDiff": 0.861,
+        "higherScore": 84
     },
     {
         "id": "400946433",
@@ -1748,8 +1893,9 @@
         "team1_team_id": "130",
         "team1_team_name": "Michigan",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 7.36,
-        "Median_absProbDiff": 0.264
+        "closeGameIndex": 7.36,
+        "absProbDiff": 0.264,
+        "higherScore": 92
     },
     {
         "id": "400946434",
@@ -1760,8 +1906,9 @@
         "team1_team_id": "314",
         "team1_team_name": "Iona",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 0.24,
-        "Median_absProbDiff": 0.976
+        "closeGameIndex": 0.24,
+        "absProbDiff": 0.976,
+        "higherScore": 93
     },
     {
         "id": "400946435",
@@ -1772,8 +1919,9 @@
         "team1_team_id": "8",
         "team1_team_name": "Arkansas",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 8.14,
-        "Median_absProbDiff": 0.186
+        "closeGameIndex": 8.14,
+        "absProbDiff": 0.186,
+        "higherScore": 77
     },
     {
         "id": "400946436",
@@ -1784,8 +1932,9 @@
         "team1_team_id": "2393",
         "team1_team_name": "Middle Tennessee",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 5.45,
-        "Median_absProbDiff": 0.455
+        "closeGameIndex": 5.45,
+        "absProbDiff": 0.455,
+        "higherScore": 81
     },
     {
         "id": "400946437",
@@ -1796,8 +1945,9 @@
         "team1_team_id": "2168",
         "team1_team_name": "Dayton",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 6.56,
-        "Median_absProbDiff": 0.344
+        "closeGameIndex": 6.56,
+        "absProbDiff": 0.344,
+        "higherScore": 64
     },
     {
         "id": "400946438",
@@ -1808,8 +1958,9 @@
         "team1_team_id": "2309",
         "team1_team_name": "Kent State",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 0.880000000000001,
-        "Median_absProbDiff": 0.912
+        "closeGameIndex": 0.880000000000001,
+        "absProbDiff": 0.912,
+        "higherScore": 97
     },
     {
         "id": "400946439",
@@ -1820,8 +1971,9 @@
         "team1_team_id": "77",
         "team1_team_name": "Northwestern",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 6.77,
-        "Median_absProbDiff": 0.323
+        "closeGameIndex": 6.77,
+        "absProbDiff": 0.323,
+        "higherScore": 68
     },
     {
         "id": "400946440",
@@ -1832,8 +1984,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 3.24,
-        "Median_absProbDiff": 0.676
+        "closeGameIndex": 3.24,
+        "absProbDiff": 0.676,
+        "higherScore": 60
     },
     {
         "id": "400946441",
@@ -1844,8 +1997,9 @@
         "team1_team_id": "2608",
         "team1_team_name": "Saint Mary's (CA)",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 1.61,
-        "Median_absProbDiff": 0.839
+        "closeGameIndex": 1.61,
+        "absProbDiff": 0.839,
+        "higherScore": 85
     },
     {
         "id": "400946442",
@@ -1856,8 +2010,9 @@
         "team1_team_id": "526",
         "team1_team_name": "Florida Gulf Coast",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 1.87,
-        "Median_absProbDiff": 0.813
+        "closeGameIndex": 1.87,
+        "absProbDiff": 0.813,
+        "higherScore": 86
     },
     {
         "id": "400946443",
@@ -1868,8 +2023,9 @@
         "team1_team_id": "2507",
         "team1_team_name": "Providence",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 3.56,
-        "Median_absProbDiff": 0.644
+        "closeGameIndex": 3.56,
+        "absProbDiff": 0.644,
+        "higherScore": 75
     },
     {
         "id": "400946444",
@@ -1880,8 +2036,9 @@
         "team1_team_id": "2306",
         "team1_team_name": "Kansas State",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 7.18,
-        "Median_absProbDiff": 0.282
+        "closeGameIndex": 7.18,
+        "absProbDiff": 0.282,
+        "higherScore": 95
     },
     {
         "id": "400946445",
@@ -1892,8 +2049,9 @@
         "team1_team_id": "2428",
         "team1_team_name": "North Carolina Central",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 6.9,
-        "Median_absProbDiff": 0.31
+        "closeGameIndex": 6.9,
+        "absProbDiff": 0.31,
+        "higherScore": 67
     },
     {
         "id": "400946446",
@@ -1904,8 +2062,9 @@
         "team1_team_id": "2086",
         "team1_team_name": "Butler",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 0.600000000000001,
-        "Median_absProbDiff": 0.94
+        "closeGameIndex": 0.600000000000001,
+        "absProbDiff": 0.94,
+        "higherScore": 76
     },
     {
         "id": "400946447",
@@ -1916,8 +2075,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 0.440000000000001,
-        "Median_absProbDiff": 0.956
+        "closeGameIndex": 0.440000000000001,
+        "absProbDiff": 0.956,
+        "higherScore": 79
     },
     {
         "id": "400946448",
@@ -1928,8 +2088,9 @@
         "team1_team_id": "2132",
         "team1_team_name": "Cincinnati",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 2.3,
-        "Median_absProbDiff": 0.77
+        "closeGameIndex": 2.3,
+        "absProbDiff": 0.77,
+        "higherScore": 75
     },
     {
         "id": "400946449",
@@ -1940,8 +2101,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 1.1,
-        "Median_absProbDiff": 0.89
+        "closeGameIndex": 1.1,
+        "absProbDiff": 0.89,
+        "higherScore": 66
     },
     {
         "id": "400946450",
@@ -1952,8 +2114,9 @@
         "team1_team_id": "2083",
         "team1_team_name": "Bucknell",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 1.5,
-        "Median_absProbDiff": 0.85
+        "closeGameIndex": 1.5,
+        "absProbDiff": 0.85,
+        "higherScore": 86
     },
     {
         "id": "400946451",
@@ -1964,8 +2127,9 @@
         "team1_team_id": "12",
         "team1_team_name": "Arizona",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 0.5,
-        "Median_absProbDiff": 0.95
+        "closeGameIndex": 0.5,
+        "absProbDiff": 0.95,
+        "higherScore": 100
     },
     {
         "id": "400946452",
@@ -1976,8 +2140,9 @@
         "team1_team_id": "120",
         "team1_team_name": "Maryland",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 6.9,
-        "Median_absProbDiff": 0.31
+        "closeGameIndex": 6.9,
+        "absProbDiff": 0.31,
+        "higherScore": 76
     },
     {
         "id": "400946453",
@@ -1988,8 +2153,9 @@
         "team1_team_id": "116",
         "team1_team_name": "Mount St. Mary's",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 6.16,
-        "Median_absProbDiff": 0.384
+        "closeGameIndex": 6.16,
+        "absProbDiff": 0.384,
+        "higherScore": 67
     },
     {
         "id": "400946551",
@@ -2000,8 +2166,9 @@
         "team1_team_id": "399",
         "team1_team_name": "Albany (NY)",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 1.99999999999996e-002,
-        "Median_absProbDiff": 0.998
+        "closeGameIndex": 1.99999999999996e-002,
+        "absProbDiff": 0.998,
+        "higherScore": 116
     },
     {
         "id": "400946552",
@@ -2012,8 +2179,9 @@
         "team1_team_id": "68",
         "team1_team_name": "Boise State",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 0.140000000000001,
-        "Median_absProbDiff": 0.986
+        "closeGameIndex": 0.140000000000001,
+        "absProbDiff": 0.986,
+        "higherScore": 83
     },
     {
         "id": "400946553",
@@ -2024,8 +2192,9 @@
         "team1_team_id": "2483",
         "team1_team_name": "Oregon",
         "team1_team_seed": "10",
-        "Median_closeGameIndex": 7.88,
-        "Median_absProbDiff": 0.212
+        "closeGameIndex": 7.88,
+        "absProbDiff": 0.212,
+        "higherScore": 71
     },
     {
         "id": "400946554",
@@ -2036,8 +2205,9 @@
         "team1_team_id": "2427",
         "team1_team_name": "North Carolina-Asheville",
         "team1_team_seed": "16",
-        "Median_closeGameIndex": 1.99999999999996e-002,
-        "Median_absProbDiff": 0.998
+        "closeGameIndex": 1.99999999999996e-002,
+        "absProbDiff": 0.998,
+        "higherScore": 90
     },
     {
         "id": "400946555",
@@ -2048,8 +2218,9 @@
         "team1_team_id": "526",
         "team1_team_name": "Florida Gulf Coast",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 1.64,
-        "Median_absProbDiff": 0.836
+        "closeGameIndex": 1.64,
+        "absProbDiff": 0.836,
+        "higherScore": 62
     },
     {
         "id": "400946556",
@@ -2060,8 +2231,9 @@
         "team1_team_id": "156",
         "team1_team_name": "Creighton",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 0.5,
-        "Median_absProbDiff": 0.95
+        "closeGameIndex": 0.5,
+        "absProbDiff": 0.95,
+        "higherScore": 76
     },
     {
         "id": "400946557",
@@ -2072,8 +2244,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0,
-        "Median_absProbDiff": 1
+        "closeGameIndex": 0,
+        "absProbDiff": 1,
+        "higherScore": 119
     },
     {
         "id": "400946558",
@@ -2084,8 +2257,9 @@
         "team1_team_id": "236",
         "team1_team_name": "Chattanooga",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 0.68,
-        "Median_absProbDiff": 0.932
+        "closeGameIndex": 0.68,
+        "absProbDiff": 0.932,
+        "higherScore": 82
     },
     {
         "id": "400946559",
@@ -2096,8 +2270,9 @@
         "team1_team_id": "305",
         "team1_team_name": "DePaul",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 0.16,
-        "Median_absProbDiff": 0.984
+        "closeGameIndex": 0.16,
+        "absProbDiff": 0.984,
+        "higherScore": 88
     },
     {
         "id": "400946560",
@@ -2108,8 +2283,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 9.99999999999996e-002,
-        "Median_absProbDiff": 0.99
+        "closeGameIndex": 9.99999999999996e-002,
+        "absProbDiff": 0.99,
+        "higherScore": 79
     },
     {
         "id": "400946561",
@@ -2120,8 +2296,9 @@
         "team1_team_id": "2057",
         "team1_team_name": "Belmont",
         "team1_team_seed": "13",
-        "Median_closeGameIndex": 1.08,
-        "Median_absProbDiff": 0.892
+        "closeGameIndex": 1.08,
+        "absProbDiff": 0.892,
+        "higherScore": 73
     },
     {
         "id": "400946562",
@@ -2132,8 +2309,9 @@
         "team1_team_id": "2181",
         "team1_team_name": "Drake",
         "team1_team_seed": "10",
-        "Median_closeGameIndex": 2.2,
-        "Median_absProbDiff": 0.78
+        "closeGameIndex": 2.2,
+        "absProbDiff": 0.78,
+        "higherScore": 67
     },
     {
         "id": "400946596",
@@ -2144,8 +2322,9 @@
         "team1_team_id": "66",
         "team1_team_name": "Iowa State",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 0.140000000000001,
-        "Median_absProbDiff": 0.986
+        "closeGameIndex": 0.140000000000001,
+        "absProbDiff": 0.986,
+        "higherScore": 85
     },
     {
         "id": "400946597",
@@ -2156,8 +2335,9 @@
         "team1_team_id": "219",
         "team1_team_name": "Pennsylvania",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 4.74,
-        "Median_absProbDiff": 0.526
+        "closeGameIndex": 4.74,
+        "absProbDiff": 0.526,
+        "higherScore": 63
     },
     {
         "id": "400946598",
@@ -2168,8 +2348,9 @@
         "team1_team_id": "2210",
         "team1_team_name": "Elon",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 3.14,
-        "Median_absProbDiff": 0.686
+        "closeGameIndex": 3.14,
+        "absProbDiff": 0.686,
+        "higherScore": 75
     },
     {
         "id": "400946599",
@@ -2180,8 +2361,9 @@
         "team1_team_id": "2083",
         "team1_team_name": "Bucknell",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 3.99999999999991e-002,
-        "Median_absProbDiff": 0.996
+        "closeGameIndex": 3.99999999999991e-002,
+        "absProbDiff": 0.996,
+        "higherScore": 103
     },
     {
         "id": "400946600",
@@ -2192,8 +2374,9 @@
         "team1_team_id": "150",
         "team1_team_name": "Duke",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 0,
-        "Median_absProbDiff": 1
+        "closeGameIndex": 0,
+        "absProbDiff": 1,
+        "higherScore": 94
     },
     {
         "id": "400946601",
@@ -2204,8 +2387,9 @@
         "team1_team_id": "9",
         "team1_team_name": "Arizona State",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 0.359999999999999,
-        "Median_absProbDiff": 0.964
+        "closeGameIndex": 0.359999999999999,
+        "absProbDiff": 0.964,
+        "higherScore": 73
     },
     {
         "id": "400946602",
@@ -2216,8 +2400,9 @@
         "team1_team_id": "269",
         "team1_team_name": "Marquette",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 4.72,
-        "Median_absProbDiff": 0.528
+        "closeGameIndex": 4.72,
+        "absProbDiff": 0.528,
+        "higherScore": 68
     },
     {
         "id": "400946603",
@@ -2228,8 +2413,9 @@
         "team1_team_id": "142",
         "team1_team_name": "Missouri",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 6.56,
-        "Median_absProbDiff": 0.344
+        "closeGameIndex": 6.56,
+        "absProbDiff": 0.344,
+        "higherScore": 66
     },
     {
         "id": "400946604",
@@ -2240,8 +2426,9 @@
         "team1_team_id": "52",
         "team1_team_name": "Florida State",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 0.600000000000001,
-        "Median_absProbDiff": 0.94
+        "closeGameIndex": 0.600000000000001,
+        "absProbDiff": 0.94,
+        "higherScore": 87
     },
     {
         "id": "400946605",
@@ -2252,8 +2439,9 @@
         "team1_team_id": "299",
         "team1_team_name": "Long Beach State",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 1.47,
-        "Median_absProbDiff": 0.853
+        "closeGameIndex": 1.47,
+        "absProbDiff": 0.853,
+        "higherScore": 56
     },
     {
         "id": "400946606",
@@ -2264,8 +2452,9 @@
         "team1_team_id": "25",
         "team1_team_name": "California",
         "team1_team_seed": "9",
-        "Median_closeGameIndex": 6.15,
-        "Median_absProbDiff": 0.385
+        "closeGameIndex": 6.15,
+        "absProbDiff": 0.385,
+        "higherScore": 55
     },
     {
         "id": "400946607",
@@ -2276,8 +2465,9 @@
         "team1_team_id": "2168",
         "team1_team_name": "Dayton",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 1.2,
-        "Median_absProbDiff": 0.88
+        "closeGameIndex": 1.2,
+        "absProbDiff": 0.88,
+        "higherScore": 66
     },
     {
         "id": "400946608",
@@ -2288,8 +2478,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 1.92,
-        "Median_absProbDiff": 0.808
+        "closeGameIndex": 1.92,
+        "absProbDiff": 0.808,
+        "higherScore": 75
     },
     {
         "id": "400946609",
@@ -2300,8 +2491,9 @@
         "team1_team_id": "147",
         "team1_team_name": "Montana State",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 0.42,
-        "Median_absProbDiff": 0.958
+        "closeGameIndex": 0.42,
+        "absProbDiff": 0.958,
+        "higherScore": 91
     },
     {
         "id": "400946610",
@@ -2312,8 +2504,9 @@
         "team1_team_id": "344",
         "team1_team_name": "Mississippi State",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 1.99999999999996e-002,
-        "Median_absProbDiff": 0.998
+        "closeGameIndex": 1.99999999999996e-002,
+        "absProbDiff": 0.998,
+        "higherScore": 110
     },
     {
         "id": "400946611",
@@ -2324,8 +2517,9 @@
         "team1_team_id": "2739",
         "team1_team_name": "Green Bay",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 3.23,
-        "Median_absProbDiff": 0.677
+        "closeGameIndex": 3.23,
+        "absProbDiff": 0.677,
+        "higherScore": 74
     },
     {
         "id": "400946612",
@@ -2336,8 +2530,9 @@
         "team1_team_id": "194",
         "team1_team_name": "Ohio State",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 1.96,
-        "Median_absProbDiff": 0.804
+        "closeGameIndex": 1.96,
+        "absProbDiff": 0.804,
+        "higherScore": 70
     },
     {
         "id": "400946613",
@@ -2348,8 +2543,9 @@
         "team1_team_id": "2",
         "team1_team_name": "Auburn",
         "team1_team_seed": "11",
-        "Median_closeGameIndex": 0.710000000000001,
-        "Median_absProbDiff": 0.929
+        "closeGameIndex": 0.710000000000001,
+        "absProbDiff": 0.929,
+        "higherScore": 62
     },
     {
         "id": "400946614",
@@ -2360,8 +2556,9 @@
         "team1_team_id": "2110",
         "team1_team_name": "Central Arkansas",
         "team1_team_seed": "14",
-        "Median_closeGameIndex": 3.99999999999991e-002,
-        "Median_absProbDiff": 0.996
+        "closeGameIndex": 3.99999999999991e-002,
+        "absProbDiff": 0.996,
+        "higherScore": 78
     },
     {
         "id": "400946615",
@@ -2372,8 +2569,9 @@
         "team1_team_id": "166",
         "team1_team_name": "New Mexico State",
         "team1_team_seed": "15",
-        "Median_closeGameIndex": 1.77,
-        "Median_absProbDiff": 0.823
+        "closeGameIndex": 1.77,
+        "absProbDiff": 0.823,
+        "higherScore": 72
     },
     {
         "id": "400947000",
@@ -2384,8 +2582,9 @@
         "team1_team_id": "57",
         "team1_team_name": "Florida",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 1.81,
-        "Median_absProbDiff": 0.819
+        "closeGameIndex": 1.81,
+        "absProbDiff": 0.819,
+        "higherScore": 65
     },
     {
         "id": "400947006",
@@ -2396,8 +2595,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 2.72,
-        "Median_absProbDiff": 0.728
+        "closeGameIndex": 2.72,
+        "absProbDiff": 0.728,
+        "higherScore": 83
     },
     {
         "id": "400947025",
@@ -2408,8 +2608,9 @@
         "team1_team_id": "222",
         "team1_team_name": "Villanova",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 6.46,
-        "Median_absProbDiff": 0.354
+        "closeGameIndex": 6.46,
+        "absProbDiff": 0.354,
+        "higherScore": 65
     },
     {
         "id": "400947026",
@@ -2420,8 +2621,9 @@
         "team1_team_id": "2086",
         "team1_team_name": "Butler",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 2.67,
-        "Median_absProbDiff": 0.733
+        "closeGameIndex": 2.67,
+        "absProbDiff": 0.733,
+        "higherScore": 74
     },
     {
         "id": "400947027",
@@ -2432,8 +2634,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0.48,
-        "Median_absProbDiff": 0.952
+        "closeGameIndex": 0.48,
+        "absProbDiff": 0.952,
+        "higherScore": 79
     },
     {
         "id": "400947046",
@@ -2444,8 +2647,9 @@
         "team1_team_id": "52",
         "team1_team_name": "Florida State",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 4.94,
-        "Median_absProbDiff": 0.506
+        "closeGameIndex": 4.94,
+        "absProbDiff": 0.506,
+        "higherScore": 91
     },
     {
         "id": "400947047",
@@ -2456,8 +2660,9 @@
         "team1_team_id": "66",
         "team1_team_name": "Iowa State",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 4.61,
-        "Median_absProbDiff": 0.539
+        "closeGameIndex": 4.61,
+        "absProbDiff": 0.539,
+        "higherScore": 80
     },
     {
         "id": "400947049",
@@ -2468,8 +2673,9 @@
         "team1_team_id": "12",
         "team1_team_name": "Arizona",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 7.94,
-        "Median_absProbDiff": 0.206
+        "closeGameIndex": 7.94,
+        "absProbDiff": 0.206,
+        "higherScore": 69
     },
     {
         "id": "400947148",
@@ -2480,8 +2686,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 3.16,
-        "Median_absProbDiff": 0.684
+        "closeGameIndex": 3.16,
+        "absProbDiff": 0.684,
+        "higherScore": 82
     },
     {
         "id": "400947149",
@@ -2492,8 +2699,9 @@
         "team1_team_id": "305",
         "team1_team_name": "DePaul",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 2.16,
-        "Median_absProbDiff": 0.784
+        "closeGameIndex": 2.16,
+        "absProbDiff": 0.784,
+        "higherScore": 92
     },
     {
         "id": "400947180",
@@ -2504,8 +2712,9 @@
         "team1_team_id": "120",
         "team1_team_name": "Maryland",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 0.42,
-        "Median_absProbDiff": 0.958
+        "closeGameIndex": 0.42,
+        "absProbDiff": 0.958,
+        "higherScore": 83
     },
     {
         "id": "400947181",
@@ -2516,8 +2725,9 @@
         "team1_team_id": "152",
         "team1_team_name": "North Carolina State",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 2.44,
-        "Median_absProbDiff": 0.756
+        "closeGameIndex": 2.44,
+        "absProbDiff": 0.756,
+        "higherScore": 84
     },
     {
         "id": "400947182",
@@ -2528,8 +2738,9 @@
         "team1_team_id": "97",
         "team1_team_name": "Louisville",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 4.3,
-        "Median_absProbDiff": 0.57
+        "closeGameIndex": 4.3,
+        "absProbDiff": 0.57,
+        "higherScore": 73
     },
     {
         "id": "400947183",
@@ -2540,8 +2751,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 3.7,
-        "Median_absProbDiff": 0.63
+        "closeGameIndex": 3.7,
+        "absProbDiff": 0.63,
+        "higherScore": 82
     },
     {
         "id": "400947185",
@@ -2552,8 +2764,9 @@
         "team1_team_id": "8",
         "team1_team_name": "Arkansas",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 2.36,
-        "Median_absProbDiff": 0.764
+        "closeGameIndex": 2.36,
+        "absProbDiff": 0.764,
+        "higherScore": 72
     },
     {
         "id": "400947206",
@@ -2564,8 +2777,9 @@
         "team1_team_id": "2483",
         "team1_team_name": "Oregon",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 5.88,
-        "Median_absProbDiff": 0.412
+        "closeGameIndex": 5.88,
+        "absProbDiff": 0.412,
+        "higherScore": 75
     },
     {
         "id": "400947212",
@@ -2576,8 +2790,9 @@
         "team1_team_id": "9",
         "team1_team_name": "Arizona State",
         "team1_team_seed": "8",
-        "Median_closeGameIndex": 1.73,
-        "Median_absProbDiff": 0.827
+        "closeGameIndex": 1.73,
+        "absProbDiff": 0.827,
+        "higherScore": 71
     },
     {
         "id": "400947213",
@@ -2588,8 +2803,9 @@
         "team1_team_id": "156",
         "team1_team_name": "Creighton",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 0.66,
-        "Median_absProbDiff": 0.934
+        "closeGameIndex": 0.66,
+        "absProbDiff": 0.934,
+        "higherScore": 64
     },
     {
         "id": "400947214",
@@ -2600,8 +2816,9 @@
         "team1_team_id": "52",
         "team1_team_name": "Florida State",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 0.800000000000001,
-        "Median_absProbDiff": 0.92
+        "closeGameIndex": 0.800000000000001,
+        "absProbDiff": 0.92,
+        "higherScore": 77
     },
     {
         "id": "400947215",
@@ -2612,8 +2829,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0.940000000000001,
-        "Median_absProbDiff": 0.906
+        "closeGameIndex": 0.940000000000001,
+        "absProbDiff": 0.906,
+        "higherScore": 88
     },
     {
         "id": "400947223",
@@ -2624,8 +2842,9 @@
         "team1_team_id": "2305",
         "team1_team_name": "Kansas",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 2.56,
-        "Median_absProbDiff": 0.744
+        "closeGameIndex": 2.56,
+        "absProbDiff": 0.744,
+        "higherScore": 90
     },
     {
         "id": "400947225",
@@ -2636,8 +2855,9 @@
         "team1_team_id": "150",
         "team1_team_name": "Duke",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 2.88,
-        "Median_absProbDiff": 0.712
+        "closeGameIndex": 2.88,
+        "absProbDiff": 0.712,
+        "higherScore": 88
     },
     {
         "id": "400947226",
@@ -2648,8 +2868,9 @@
         "team1_team_id": "2132",
         "team1_team_name": "Cincinnati",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 7.8,
-        "Median_absProbDiff": 0.22
+        "closeGameIndex": 7.8,
+        "absProbDiff": 0.22,
+        "higherScore": 79
     },
     {
         "id": "400947227",
@@ -2660,8 +2881,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 6.21,
-        "Median_absProbDiff": 0.379
+        "closeGameIndex": 6.21,
+        "absProbDiff": 0.379,
+        "higherScore": 65
     },
     {
         "id": "400947248",
@@ -2672,8 +2894,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 1.99999999999996e-002,
-        "Median_absProbDiff": 0.998
+        "closeGameIndex": 1.99999999999996e-002,
+        "absProbDiff": 0.998,
+        "higherScore": 94
     },
     {
         "id": "400947266",
@@ -2684,8 +2907,9 @@
         "team1_team_id": "57",
         "team1_team_name": "Florida",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 5.64,
-        "Median_absProbDiff": 0.436
+        "closeGameIndex": 5.64,
+        "absProbDiff": 0.436,
+        "higherScore": 84
     },
     {
         "id": "400947267",
@@ -2696,8 +2920,9 @@
         "team1_team_id": "2306",
         "team1_team_name": "Kansas State",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 0.5,
-        "Median_absProbDiff": 0.95
+        "closeGameIndex": 0.5,
+        "absProbDiff": 0.95,
+        "higherScore": 69
     },
     {
         "id": "400947268",
@@ -2708,8 +2933,9 @@
         "team1_team_id": "2390",
         "team1_team_name": "Miami (FL)",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 6.52,
-        "Median_absProbDiff": 0.348
+        "closeGameIndex": 6.52,
+        "absProbDiff": 0.348,
+        "higherScore": 85
     },
     {
         "id": "400947269",
@@ -2720,8 +2946,9 @@
         "team1_team_id": "97",
         "team1_team_name": "Louisville",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 3.72,
-        "Median_absProbDiff": 0.628
+        "closeGameIndex": 3.72,
+        "absProbDiff": 0.628,
+        "higherScore": 75
     },
     {
         "id": "400947270",
@@ -2732,8 +2959,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 5.59,
-        "Median_absProbDiff": 0.441
+        "closeGameIndex": 5.59,
+        "absProbDiff": 0.441,
+        "higherScore": 61
     },
     {
         "id": "400947271",
@@ -2744,8 +2972,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 8.00000000000001e-002,
-        "Median_absProbDiff": 0.992
+        "closeGameIndex": 8.00000000000001e-002,
+        "absProbDiff": 0.992,
+        "higherScore": 86
     },
     {
         "id": "400947272",
@@ -2756,8 +2985,9 @@
         "team1_team_id": "245",
         "team1_team_name": "Texas A&M",
         "team1_team_seed": "5",
-        "Median_closeGameIndex": 0.120000000000001,
-        "Median_absProbDiff": 0.988
+        "closeGameIndex": 0.120000000000001,
+        "absProbDiff": 0.988,
+        "higherScore": 75
     },
     {
         "id": "400947273",
@@ -2768,8 +2998,9 @@
         "team1_team_id": "12",
         "team1_team_name": "Arizona",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 5.84,
-        "Median_absProbDiff": 0.416
+        "closeGameIndex": 5.84,
+        "absProbDiff": 0.416,
+        "higherScore": 73
     },
     {
         "id": "400947274",
@@ -2780,8 +3011,9 @@
         "team1_team_id": "150",
         "team1_team_name": "Duke",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 3.56,
-        "Median_absProbDiff": 0.644
+        "closeGameIndex": 3.56,
+        "absProbDiff": 0.644,
+        "higherScore": 74
     },
     {
         "id": "400947275",
@@ -2792,8 +3024,9 @@
         "team1_team_id": "201",
         "team1_team_name": "Oklahoma",
         "team1_team_seed": "6",
-        "Median_closeGameIndex": 0.58,
-        "Median_absProbDiff": 0.942
+        "closeGameIndex": 0.58,
+        "absProbDiff": 0.942,
+        "higherScore": 108
     },
     {
         "id": "400947321",
@@ -2804,8 +3037,9 @@
         "team1_team_id": "2305",
         "team1_team_name": "Kansas",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 3.94,
-        "Median_absProbDiff": 0.606
+        "closeGameIndex": 3.94,
+        "absProbDiff": 0.606,
+        "higherScore": 98
     },
     {
         "id": "400947324",
@@ -2816,8 +3050,9 @@
         "team1_team_id": "2086",
         "team1_team_name": "Butler",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 0.620000000000001,
-        "Median_absProbDiff": 0.938
+        "closeGameIndex": 0.620000000000001,
+        "absProbDiff": 0.938,
+        "higherScore": 92
     },
     {
         "id": "400947325",
@@ -2828,8 +3063,9 @@
         "team1_team_id": "130",
         "team1_team_name": "Michigan",
         "team1_team_seed": "7",
-        "Median_closeGameIndex": 8.44,
-        "Median_absProbDiff": 0.156
+        "closeGameIndex": 8.44,
+        "absProbDiff": 0.156,
+        "higherScore": 69
     },
     {
         "id": "400947327",
@@ -2840,8 +3076,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 1.83,
-        "Median_absProbDiff": 0.817
+        "closeGameIndex": 1.83,
+        "absProbDiff": 0.817,
+        "higherScore": 70
     },
     {
         "id": "400947328",
@@ -2852,8 +3089,9 @@
         "team1_team_id": "52",
         "team1_team_name": "Florida State",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 5.14,
-        "Median_absProbDiff": 0.486
+        "closeGameIndex": 5.14,
+        "absProbDiff": 0.486,
+        "higherScore": 66
     },
     {
         "id": "400947329",
@@ -2864,8 +3102,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 1.46,
-        "Median_absProbDiff": 0.854
+        "closeGameIndex": 1.46,
+        "absProbDiff": 0.854,
+        "higherScore": 99
     },
     {
         "id": "400947330",
@@ -2876,8 +3115,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 5.24,
-        "Median_absProbDiff": 0.476
+        "closeGameIndex": 5.24,
+        "absProbDiff": 0.476,
+        "higherScore": 86
     },
     {
         "id": "400947382",
@@ -2888,8 +3128,9 @@
         "team1_team_id": "24",
         "team1_team_name": "Stanford",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 7.28,
-        "Median_absProbDiff": 0.272
+        "closeGameIndex": 7.28,
+        "absProbDiff": 0.272,
+        "higherScore": 77
     },
     {
         "id": "400947383",
@@ -2900,8 +3141,9 @@
         "team1_team_id": "120",
         "team1_team_name": "Maryland",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 3.82,
-        "Median_absProbDiff": 0.618
+        "closeGameIndex": 3.82,
+        "absProbDiff": 0.618,
+        "higherScore": 77
     },
     {
         "id": "400947447",
@@ -2912,8 +3154,9 @@
         "team1_team_id": "344",
         "team1_team_name": "Mississippi State",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 6.34,
-        "Median_absProbDiff": 0.366
+        "closeGameIndex": 6.34,
+        "absProbDiff": 0.366,
+        "higherScore": 75
     },
     {
         "id": "400947448",
@@ -2924,8 +3167,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0.199999999999999,
-        "Median_absProbDiff": 0.98
+        "closeGameIndex": 0.199999999999999,
+        "absProbDiff": 0.98,
+        "higherScore": 97
     },
     {
         "id": "400947449",
@@ -2936,8 +3180,9 @@
         "team1_team_id": "2514",
         "team1_team_name": "Quinnipiac",
         "team1_team_seed": "12",
-        "Median_closeGameIndex": 8.99999999999999e-002,
-        "Median_absProbDiff": 0.991
+        "closeGameIndex": 8.99999999999999e-002,
+        "absProbDiff": 0.991,
+        "higherScore": 100
     },
     {
         "id": "400947457",
@@ -2948,8 +3193,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 0.16,
-        "Median_absProbDiff": 0.984
+        "closeGameIndex": 0.16,
+        "absProbDiff": 0.984,
+        "higherScore": 86
     },
     {
         "id": "400948650",
@@ -2960,8 +3206,9 @@
         "team1_team_id": "2305",
         "team1_team_name": "Kansas",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 4.32,
-        "Median_absProbDiff": 0.568
+        "closeGameIndex": 4.32,
+        "absProbDiff": 0.568,
+        "higherScore": 74
     },
     {
         "id": "400948652",
@@ -2972,8 +3219,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 1.34,
-        "Median_absProbDiff": 0.866
+        "closeGameIndex": 1.34,
+        "absProbDiff": 0.866,
+        "higherScore": 83
     },
     {
         "id": "400948703",
@@ -2984,8 +3232,9 @@
         "team1_team_id": "87",
         "team1_team_name": "Notre Dame",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 4.18,
-        "Median_absProbDiff": 0.582
+        "closeGameIndex": 4.18,
+        "absProbDiff": 0.582,
+        "higherScore": 76
     },
     {
         "id": "400948726",
@@ -2996,8 +3245,9 @@
         "team1_team_id": "96",
         "team1_team_name": "Kentucky",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 7.49,
-        "Median_absProbDiff": 0.251
+        "closeGameIndex": 7.49,
+        "absProbDiff": 0.251,
+        "higherScore": 75
     },
     {
         "id": "400948727",
@@ -3008,8 +3258,9 @@
         "team1_team_id": "239",
         "team1_team_name": "Baylor",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 3.35,
-        "Median_absProbDiff": 0.665
+        "closeGameIndex": 3.35,
+        "absProbDiff": 0.665,
+        "higherScore": 94
     },
     {
         "id": "400948729",
@@ -3020,8 +3271,9 @@
         "team1_team_id": "57",
         "team1_team_name": "Florida",
         "team1_team_seed": "4",
-        "Median_closeGameIndex": 7.56,
-        "Median_absProbDiff": 0.244
+        "closeGameIndex": 7.56,
+        "absProbDiff": 0.244,
+        "higherScore": 77
     },
     {
         "id": "400948771",
@@ -3032,8 +3284,9 @@
         "team1_team_id": "52",
         "team1_team_name": "Florida State",
         "team1_team_seed": "3",
-        "Median_closeGameIndex": 1.84,
-        "Median_absProbDiff": 0.816
+        "closeGameIndex": 1.84,
+        "absProbDiff": 0.816,
+        "higherScore": 71
     },
     {
         "id": "400948786",
@@ -3044,8 +3297,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 3.99999999999991e-002,
-        "Median_absProbDiff": 0.996
+        "closeGameIndex": 3.99999999999991e-002,
+        "absProbDiff": 0.996,
+        "higherScore": 90
     },
     {
         "id": "400948847",
@@ -3056,8 +3310,9 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 4.24,
-        "Median_absProbDiff": 0.576
+        "closeGameIndex": 4.24,
+        "absProbDiff": 0.576,
+        "higherScore": 77
     },
     {
         "id": "400948853",
@@ -3068,8 +3323,9 @@
         "team1_team_id": "153",
         "team1_team_name": "North Carolina",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 6.3,
-        "Median_absProbDiff": 0.37
+        "closeGameIndex": 6.3,
+        "absProbDiff": 0.37,
+        "higherScore": 77
     },
     {
         "id": "400948987",
@@ -3080,8 +3336,9 @@
         "team1_team_id": "41",
         "team1_team_name": "Connecticut",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 5.28,
-        "Median_absProbDiff": 0.472
+        "closeGameIndex": 5.28,
+        "absProbDiff": 0.472,
+        "higherScore": 66
     },
     {
         "id": "400948996",
@@ -3092,8 +3349,9 @@
         "team1_team_id": "2579",
         "team1_team_name": "South Carolina",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 5.14,
-        "Median_absProbDiff": 0.486
+        "closeGameIndex": 5.14,
+        "absProbDiff": 0.486,
+        "higherScore": 62
     },
     {
         "id": "400949226",
@@ -3104,8 +3362,9 @@
         "team1_team_id": "344",
         "team1_team_name": "Mississippi State",
         "team1_team_seed": "2",
-        "Median_closeGameIndex": 3.54,
-        "Median_absProbDiff": 0.646
+        "closeGameIndex": 3.54,
+        "absProbDiff": 0.646,
+        "higherScore": 67
     },
     {
         "id": "400949246",
@@ -3116,7 +3375,8 @@
         "team1_team_id": "2250",
         "team1_team_name": "Gonzaga",
         "team1_team_seed": "1",
-        "Median_closeGameIndex": 7.06,
-        "Median_absProbDiff": 0.294
+        "closeGameIndex": 7.06,
+        "absProbDiff": 0.294,
+        "higherScore": 71
     }
 ]

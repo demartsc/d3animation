@@ -3,16 +3,19 @@ var svg = d3.select("svg"),
     width = svg.attr("width") - margin.left - margin.right,
     height = svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("class","mainG").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    cg = svg.append("g").attr("class","mainCircleG").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var parseTime = d3.timeParse("%Y%m%d");
 
+var i = 0;
+
 var x = d3.scaleLinear().range([0, width]),
+    x2 = d3.scaleLinear().range([0, width]),
     y = d3.scaleLinear().range([height, 0]),
     y2 = d3.scaleLinear().range([height, 0]),
     y3 = d3.scaleLinear().range([height, 0]),
     z = d3.scaleOrdinal(d3.schemeCategory10);
-
-var medianData = [] ;
+    z1 = d3.scaleOrdinal(["#149E9C", "#F79608"])
 
 var line = d3.line()
     //.curve(d3.curveBasis)
@@ -24,26 +27,27 @@ var line2 = d3.line()
     .x(function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
     .y(function(d) { return y(d.team2_prob); });
 
-d3.json("data\\medianData.json"),function(error, mData) {
-  if (error) throw error;
+//use d3.queue to bring in multiple data sets which we bind at different times
+d3.queue()
+  .defer(d3.json, "data\\gamedata.json")
+  .defer(d3.json, "data\\medianData.json")
+  .await(ready);
 
-  console.log(mData);
-
-  medianData = mData;
-  console.log(medianData);
-}
-
-
-d3.json("data\\gamedata.json", function(error, data) {
+// main function to run stuff
+function ready(error, data, mData) {
   if (error) throw error;
 
   console.log(data);
+  console.log(mData);
 
   x.domain(d3.extent(data, function(d) { return (600-d.game_time+((d.quarter-1)*600)); }));
+  x2.domain([d3.extent(mData, function(d) {return d.higherScore;})[0]-5, d3.extent(mData, function(d) {return d.higherScore;})[1]*2 - 30]);
 
   y.domain([0.00,1.00]);
   y2.domain([1.00,0.00]);
   y3.domain([0.00,10.00]);
+
+  z1.domain(["womens","mens"]);
 
   //z.domain(cities.map(function(c) { return c.id; }));
 
@@ -134,115 +138,136 @@ d3.json("data\\gamedata.json", function(error, data) {
         .attr("stroke-dashoffset", totalLength)
         .transition()
           .ease(d3.easeCircle)
-          .duration(2000)
+          .duration(1000)
           .attr("stroke-dashoffset", 0)
         .transition()
-          .delay(5000)
-          .duration(2000)
+          .delay(1000)
+          .duration(1000)
           .style("opacity",0)
           .on("start",barTransition)
           .on("end",removeLineChart);
     }
 
     function barTransition() {
-      d3.select("#approach").transition().duration(2000).style("opacity",0);
+      d3.select("#approach").transition().duration(1000).style("opacity",0);
 
       d3.select("#approach")
         .style("opacity",0)
         .text("In order to do that, we start by calculating the difference between the two lines at each moment of data capture throughout the game.")
         .transition()
-          .duration(2000)
+          .duration(1000)
           .style("opacity",1)
         .transition()
-          .delay(5000)
+          .delay(1000)
           .duration(1000)
           .style("opacity",0)
         .transition()
-          .duration(2000)
+          .duration(1000)
           .text("The we calculate the median (to try and avoid skewing) across the difference for each moment in the game to come up with a 34.3% median in this example.")
           .style("opacity",1)
         .transition()
-          .delay(5000)
-          .duration(2000)
+          .delay(1000)
+          .duration(1000)
           .style("opacity",0)
         .transition()
-          .duration(5000)
+          .duration(1000)
           .text("Lastly, I felt it was hard to explain the median percentages, so I transposed them into a score I am calling the 'Close Game Index' shown below. This is simply 10 - (10*[Median Percent Difference]).")
           .style("opacity",1);
 
-      //d3.select("#approach").transition().duration(2000).style("opacity",1);
+      //d3.select("#approach").transition().duration(1000).style("opacity",1);
 
       // this section will handle the bar transitions within the visualization after the line transitions have been executed
       d3.selectAll(".bars")
         .transition()
-          .duration(2000)
+          .duration(1000)
           .style("opacity",.5)
         .transition()
-          .delay(5000)
-          .duration(2000)
+          .delay(1000)
+          .duration(1000)
           .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
           .attr("y", function(d) { return y(Math.abs(d.team2_prob - d.team1_prob)); })
           .attr("height", function(d) { return height - y(Math.abs(d.team2_prob - d.team1_prob)); })
           .on("start",updateMedian)
         .transition()
-          .delay(5000)
-          .duration(5000)
+          .delay(1000)
+          .duration(1000)
           .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
           .attr("y", function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
           .attr("height", function(d) { return height - y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
-          .on("start",updateAxis)
+          .on("start",updateMedian2) //updateAxis
         .transition()
-          .delay(5000)
-          .duration(5000)
+          .delay(1000)
+          .duration(1000)
           .attr("y", function(d) { return y3(0); })
           .attr("height", function(d) { return height - y3(0); })
-          .on("end",removeBars);
+          .on("end",circleTransition);
     }
 
     function circleTransition() {
       var yMedianValue = d3.median(data, function(d) { return 10-(10*(Math.abs(d.team2_prob - d.team1_prob))); });
       var f = d3.format(".1f");
+      i++;
+
 
       // we are going to bring line together and make the circle bigger while doing so
       d3.selectAll(".lineM path")
         .transition()
-          .duration(2000)
+          .duration(1000)
           .style("opacity",0)
           .attr("d", "M " + x(1200) + " " + y3(yMedianValue) + " L " + x(1200) + " " + y3(yMedianValue) + " Z");
 
       d3.selectAll(".lineM text")
         .transition()
-          .duration(2000)
+          .duration(1000)
           .style("opacity",0);
 
-      g.append("g").attr("class","circleG").selectAll("circle")
-        .data([1])
-      .enter().append("circle")
-        .attr("class","circles")
-        .attr("id",function(d) {return "transition";})
-        .style("opacity",0)
-        .style("fill","lightblue")
-        .style("stroke","lightblue")
-        .attr("cx", function(d) { return x(1200); })
-        .attr("cy", function(d) { return y3(yMedianValue); })
-        .attr("r", 0)
-      .transition()
-        .duration(2000)
-        .style("opacity",1)
-        .attr("r",15);
+      //clean out data and remove bars
+      d3.selectAll(".bars").data([]).exit().remove(); // clean out dom elements
 
-    d3.select(".circleG")
-      .append("text")
-       .attr("x", function(d) { return x(1200); })
-       .attr("y", function(d) { return y3(yMedianValue); })
-       //.attr('text-anchor', 'left')
-       .style("stroke","white")
-       .style("opacity",0)
-       .style("font-size","smaller")
-       .text(f(yMedianValue))
-      .transition()
-        .duration(2000)
-        .style("opacity",1);
+
+      if (i == 1)
+      {
+        console.log("in if statement");
+        cg.selectAll("circle")
+          .data(mData)
+        .enter().append("circle")
+          .attr("class","circles")
+          .attr("id",function(d) {return d.id;})
+          .style("opacity",0)
+          .style("fill","lightblue")
+          .style("stroke","lightblue")
+          .attr("cx", function(d) { return x(1200); })
+          .attr("cy", function(d) { return y3(yMedianValue); })
+          .attr("r", 0)
+        .transition()
+          .duration(1000)
+          .style("opacity",1)
+          .attr("r",15)
+          //.on("end",updateXAxis)
+        .transition()
+          .duration(1000)
+          .delay(1000)
+          .attr("cx", function(d) { if (d.gender == "mens") {return x2(d.higherScore);} else {return x2(d.higherScore+d3.extent(mData, function(d) {return d.higherScore;})[1]-30);}; })
+          .attr("cy", function(d) { return y3(d.closeGameIndex); })
+          .attr("r", 5)
+          .style("opacity",.5)
+          .style("stroke", function(d) { return z1(d.gender); })
+          .style("fill", function(d) { return z1(d.gender); })
+          .on("end",updateMedian3);
+
+        cg.append("text")
+           .attr("x", function(d) { return x(1175); })
+           .attr("y", function(d) { return y3(yMedianValue); })
+           .attr('text-anchor', 'left')
+           .style("stroke","white")
+           .style("opacity",0)
+           .style("font-size","smaller")
+           .text(f(yMedianValue))
+          .transition()
+            .duration(1000)
+            .style("opacity",1);
+      }
+
 
     }
 
@@ -251,7 +276,7 @@ d3.json("data\\gamedata.json", function(error, data) {
 
       d3.selectAll(".axis--y")
         .transition()
-          .duration(4000)
+          .duration(1000)
           .call(d3.axisLeft(y3));
 
       d3.selectAll(".axis--y text")
@@ -259,15 +284,21 @@ d3.json("data\\gamedata.json", function(error, data) {
 
     }
 
-    function removeLineChart() {
-      d3.selectAll(".lineChart").data([]).exit().remove();
+    function updateXAxis() {
+      d3.selectAll(".axis--x")
+        .transition()
+          .duration(1000)
+          .call(d3.axisBottom(x2));
+
+      d3.select(".axis--x text")
+        .transition()
+          .duration(100)
+          .delay(1000)
+          .text("Higher Score->");
     }
 
-
-    function removeBars() {
-      d3.selectAll(".bars").data([]).exit().remove();
-
-      circleTransition();
+    function removeLineChart() {
+      d3.selectAll(".lineChart").data([]).exit().remove();
     }
 
     function updateMedian() {
@@ -277,13 +308,13 @@ d3.json("data\\gamedata.json", function(error, data) {
 
       d3.selectAll(".lineM path")
         .transition()
-          .duration(2000)
+          .duration(1000)
           .style("opacity",1)
           .attr("d", "M " + 0 + " " + y(yMedianValue) + " L " + width + " " + y(yMedianValue) + " Z");
 
       d3.selectAll(".lineM text")
         .transition()
-          .duration(2000)
+          .duration(1000)
           .style("opacity",1)
           .attr("x", 10)
           .attr("y", y(yMedianValue+.02))
@@ -297,17 +328,35 @@ d3.json("data\\gamedata.json", function(error, data) {
 
       d3.selectAll(".lineM path")
         .transition()
-          .duration(5000)
+          .duration(1000)
           .attr("d", "M " + 0 + " " + y3(yMedianValue) + " L " + width + " " + y3(yMedianValue) + " Z");
 
       d3.selectAll(".lineM text")
         .transition()
-          .duration(5000) 
+          .duration(1000) 
           .attr("x", x(1100))
           .attr("y", y3(yMedianValue+.1))
           .text("Median: " + f(yMedianValue));
     }
 
+    function updateMedian3() {
+      var yMedianValue = d3.median(mData, function(d) {return d.closeGameIndex; });
+      var f = d3.format(".1f");
+
+      d3.selectAll(".lineM path")
+        .transition()
+          .duration(1000)
+          .style("opacity",1)
+          .attr("d", "M " + 0 + " " + y3(yMedianValue) + " L " + width + " " + y3(yMedianValue) + " Z");
+
+      d3.selectAll(".lineM text")
+        .transition()
+          .duration(1000) 
+          .attr("x", x(1100))
+          .attr("y", y3(yMedianValue+.1))
+          .style("opacity",1)
+          .text("Median: " + f(yMedianValue));
+    }
 /*
           .tween("lines",function () {
             return function (t) {
@@ -316,7 +365,7 @@ d3.json("data\\gamedata.json", function(error, data) {
             }
           }).each("end", function () {
             d3.transition()
-              .duration(2000)
+              .duration(1000)
               .tween("hideLines",function () {
                 return function (t) {
                   d3.selectAll("path").style("opacity",1-t);
@@ -330,13 +379,13 @@ d3.json("data\\gamedata.json", function(error, data) {
       .attr("stroke-dasharray", totalLength + " " + totalLength)
       .attr("stroke-dashoffset", totalLength)
       .transition()
-        .duration(2000)
+        .duration(1000)
         .attr("stroke-dashoffset", 0);
 
 
     d3.selectAll("path")
       .transition()
-        .duration(2000)
+        .duration(1000)
         .delay(10000)
         .style("opacity",0);
 
@@ -344,7 +393,7 @@ d3.json("data\\gamedata.json", function(error, data) {
 
     d3.selectAll("path")
       .transition()
-        .duration(2000)
+        .duration(1000)
         .delay(10000)
         .style("opacity",0);
 
@@ -360,7 +409,7 @@ d3.json("data\\gamedata.json", function(error, data) {
     d3.selectAll(".bars")
       .transition()
         .duration(3000)
-        .delay(15000)
+        .delay(11000)
         .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
         .attr("y", function(d) { return y(Math.abs(d.team2_prob - d.team1_prob)); })
         .attr("width", "4px")
@@ -370,7 +419,7 @@ d3.json("data\\gamedata.json", function(error, data) {
     d3.selectAll(".bars")
       .transition()
         .duration(3000)
-        .delay(20000)
+        .delay(10000)
         .attr("x", function(d) { return x((600-d.game_time+((d.quarter-1)*600))); })
         .attr("y", function(d) { return y3(10-(10*(Math.abs(d.team2_prob - d.team1_prob)))); })
         .attr("width", "4px")
@@ -379,7 +428,7 @@ d3.json("data\\gamedata.json", function(error, data) {
     d3.selectAll(".axis--y")
       .transition()
         .duration(3000)
-        .delay(20000)
+        .delay(10000)
         .call(d3.axisLeft(y3));
 
 */
@@ -439,7 +488,7 @@ d3.json("data\\gamedata.json", function(error, data) {
       .text(function(d) { return d.id; });
 */
 
-});
+};
 
 /*
 function type(d, _, columns) {
