@@ -105,14 +105,6 @@ function ready(error, data, mData) {
       .style("opacity",0)
       .attr("d", "M " + 0 + " " + y(0) + " L " + width + " " + y(0) + " Z");
 
-  g.select(".lineM")
-    .append("path")
-      .attr("id","lineM3")
-      .attr("stroke", "lightgrey")
-      .attr("stroke-width", 5)
-      .style("opacity",0)
-      .attr("d", "M " + x(1200) + " " + y(0) + " L " + x(1200) + " " + y(1) + " Z");
-
   d3.select(".lineM")
     .append("text")
      .attr("id","lineMtext1")
@@ -182,7 +174,7 @@ function ready(error, data, mData) {
         .attr("stroke-dashoffset", totalLength)
         .transition()
           .ease(d3.easeCircle)
-          .duration(tranTime)
+          .duration(tranTime/2)
           .attr("stroke-dashoffset", 0)
         .transition()
           .delay(tranTime)
@@ -193,41 +185,135 @@ function ready(error, data, mData) {
     }
 
     function barTransition() {
-      d3.select("#approach").transition().duration(tranTime).style("opacity",0);
-
-      d3.select("#approach")
-        .style("opacity",0)
-        .text("In order to do that, we start by calculating the difference between the two lines at each moment of data capture throughout the game.")
+      d3.select("#approachHead")
         .transition()
-          .duration(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("Calculate Difference")
           .style("opacity",1)
         .transition()
           .delay(tranTime)
-          .duration(tranTime)
+          .duration(tranTime/2)
           .style("opacity",0)
         .transition()
-          .duration(tranTime)
+          .duration(tranTime/2)
+          .text("Baseline and Calculate Median")
+          .style("opacity",1)
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("Simplify Comparison Metric")
+          .style("opacity",1)
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("Game Median")
+          .style("opacity",1)
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("Plot Close Game Index")
+          .style("opacity",1)
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("And Winning Score")
+          .style("opacity",1)
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("Include All Games")
+          .style("opacity",1)
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("The Result")
+          .style("opacity",1);
+
+
+      d3.select("#approach")
+        .transition()
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("In order to do that, we start by calculating the difference between the two lines at each moment of data capture throughout the game.")
+          .style("opacity",1)
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
           .text("The we calculate the median (to try and avoid skewing) across the difference for each moment in the game to come up with a 34.3% median in this example.")
           .style("opacity",1)
         .transition()
           .delay(tranTime)
-          .duration(tranTime)
+          .duration(tranTime/2)
           .style("opacity",0)
         .transition()
-          .duration(tranTime)
+          .duration(tranTime/2)
           .text("I felt it was hard to explain the median percentages, so I transposed them into a score I am calling the 'Close Game Index' shown below. This is simply 10 - (10*[Median Percent Difference]).")
           .style("opacity",1)
         .transition()
-          .duration(tranTime)
-          .text("We take the median")
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("We take the median for this game")
           .style("opacity",1)
         .transition()
-          .duration(tranTime)
-          .text("And plot it by close game index and winning game score. We focus on the results with the simple thought of; the higher the close game index, the closer the game, the lower the close game index, the more lopsided the game was.")
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("And plot it by close game index on the y-axis") 
+          .style("opacity",1)          
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("And winning game score on the x-axis. We can now focus on the results with the simple thought of; the higher the close game index, the closer the game, the lower the close game index, the more lopsided the game was.")
           .style("opacity",1)
         .transition()
-          .duration(tranTime)
-          .text("Overall, in the scatter plot, we see far more games with the close game index near 0 in the women's plot vs the men's plot. This brings the median down to close to 1.1 vs the 2.8 median index we see for the men's games. Let slice this up a bit more and look at how the games play out across the different rounds of the tournament.")
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("We do the same process for all tournament games in the past two years.") 
+          .style("opacity",1)          
+        .transition()
+          .delay(tranTime)
+          .duration(tranTime/2)
+          .style("opacity",0)
+        .transition()
+          .duration(tranTime/2)
+          .text("Overall, in the scatter plots, we see far more games with the close game index near 0 in the women's plot vs the men's plot. This brings the median below 1.5 vs the 2.9 median index we see for the men's games.")
           .style("opacity",1);
 
       //d3.select("#approach").transition().duration(tranTime).style("opacity",1);
@@ -268,12 +354,14 @@ function ready(error, data, mData) {
       // we are going to bring line together and make the circle bigger while doing so
       d3.selectAll(".lineM path")
         .transition()
+          .delay(tranTime)
           .duration(tranTime)
           .style("opacity",0)
           .attr("d", "M " + x(1200) + " " + y3(yMedianValue) + " L " + x(1200) + " " + y3(yMedianValue) + " Z");
 
       d3.selectAll(".lineM text")
         .transition()
+          .delay(tranTime)
           .duration(tranTime)
           .style("opacity",0);
 
@@ -302,12 +390,14 @@ function ready(error, data, mData) {
           .on("start", function(d) { 
             cg.select("#g400946603")
               .transition()
+                .delay(tranTime)
                 .duration(tranTime)
                 .attr("r",15)
                 .style("opacity",.75)
                 .on("end", function(d) {
                   cg.selectAll("circle")
                     .transition()
+                      .delay(tranTime)
                       .duration(tranTime)
                       .delay(tranTime)
                       .attr("cx", function(d) { if (d.gender == "mens") {return x2(d.higherScore);} else {return x2(d.higherScore+d3.extent(mData, function(d) {return d.higherScore;})[1]-30);}; })
@@ -317,8 +407,8 @@ function ready(error, data, mData) {
                       .style("fill", function(d) { return z1(d.gender); })
                       .on("start", updateXAxis)
                       .transition()
-                        .duration(tranTime*3)
                         .delay(tranTime)
+                        .duration(tranTime*2)
                         .style("opacity",.5) 
                         .on("end",updateMedian3);        
               })
@@ -334,7 +424,7 @@ function ready(error, data, mData) {
           .duration(tranTime)
           .call(d3.axisLeft(y3));
 
-      d3.selectAll(".axis--y text")
+      d3.select("#yLabel")
         .text("Close Game Index");
     }
 
@@ -345,13 +435,13 @@ function ready(error, data, mData) {
           .transition()
             .duration(tranTime)
             .style("opacity",0)
-            .on("end",function() {
+            .on("start",function() {
               d3.select("#xLabel")
                 .transition()
                   .duration(tranTime)
                   .attr("dx", x(600))
                   .attr("dy", "1em")
-                  .text("Higher Score->")
+                  .text("Higher Winning Score->")
                   .style("opacity",1)
                   .on("start",function(){
                     d3.select("#xLabel2")
@@ -359,7 +449,7 @@ function ready(error, data, mData) {
                         .duration(tranTime)
                         .attr("dx", x(1800))
                         .attr("dy", "1em")
-                        .text("Higher Score->")
+                        .text("Higher Winning Score->")
                         .style("opacity",1);
                 })
             })
@@ -415,27 +505,27 @@ function ready(error, data, mData) {
     }
 
     function updateMedian3() {
-      var yMedianValueM = d3.median(mData, function(d) { if (d.gender == "mens") {return d.closeGameIndex}; });
-      var yMedianValueW = d3.median(mData, function(d) { if (d.gender == "womens") {return d.closeGameIndex}; });
-      var f = d3.format(".1f");
-
-      d3.select(".lineM #lineM2").attr("d", "M " + 0 + " " + y3(yMedianValueM) + " L " + 0 + " " + y3(yMedianValueM) + " Z");
-      d3.select(".lineM #lineM1").attr("d", "M " + 1200 + " " + y3(yMedianValueW) + " L " + 1200 + " " + y3(yMedianValueW) + " Z");
-      d3.select(".lineM #lineM3").transition().duration(1000).style("opacity",1);
-
       m3++;
       if (m3 == 1) {
+
+        var yMedianValueM = d3.median(mData, function(d) { if (d.gender == "mens") {return d.closeGameIndex}; });
+        var yMedianValueW = d3.median(mData, function(d) { if (d.gender == "womens") {return d.closeGameIndex}; });
+        var f = d3.format(".1f");
+
+        d3.select(".lineM #lineM2").attr("d", "M " + width/2 + " " + y3(yMedianValueM) + " L " + width/2 + " " + y3(yMedianValueM) + " Z");
+        d3.select(".lineM #lineM1").attr("d", "M " + width + " " + y3(yMedianValueW) + " L " + width + " " + y3(yMedianValueW) + " Z");
+
         d3.select(".lineM #lineM2")
           .transition()
             .duration(tranTime)
             .style("opacity",.75)
-            .attr("d", "M " + 0 + " " + y3(yMedianValueM) + " L " + width/2 + " " + y3(yMedianValueM) + " Z")
+            .attr("d", "M " + 0 + " " + y3(yMedianValueM) + " L " + ((width/2)-20) + " " + y3(yMedianValueM) + " Z")
             .on("start",function(d) {
               d3.select(".lineM #lineM1")
                 .transition()
                   .duration(tranTime)
                   .style("opacity",.75)
-                  .attr("d", "M " + width/2 + " " + y3(yMedianValueW) + " L " + width + " " + y3(yMedianValueW) + " Z");
+                  .attr("d", "M " + ((width/2)+20) + " " + y3(yMedianValueW) + " L " + width + " " + y3(yMedianValueW) + " Z");
             })
 
 
