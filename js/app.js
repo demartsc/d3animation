@@ -7,7 +7,7 @@ var svg = d3.select("svg"),
 
 var parseTime = d3.timeParse("%Y%m%d");
 
-var tranTime = 1000;
+var tranTime = 5000;
 
 var i = 0;
 var m2 = 0; 
