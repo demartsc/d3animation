@@ -232,29 +232,42 @@ function ready(error, data, mData) {
           .data(mData)
         .enter().append("circle")
           .attr("class","circles")
-          .attr("id",function(d) {return d.id;})
+          .attr("id",function(d) {return "g" + d.id;})
           .style("opacity",0)
           .style("fill","lightblue")
           .style("stroke","lightblue")
           .attr("cx", function(d) { return x(1200); })
           .attr("cy", function(d) { return y3(yMedianValue); })
           .attr("r", 0)
-        .transition()
+          .transition()
           .duration(1000)
-          .style("opacity",1)
-          .attr("r",15)
-          //.on("end",updateXAxis)
-        .transition()
-          .duration(1000)
-          .delay(1000)
-          .attr("cx", function(d) { if (d.gender == "mens") {return x2(d.higherScore);} else {return x2(d.higherScore+d3.extent(mData, function(d) {return d.higherScore;})[1]-30);}; })
-          .attr("cy", function(d) { return y3(d.closeGameIndex); })
-          .attr("r", 5)
-          .style("opacity",.5)
-          .style("stroke", function(d) { return z1(d.gender); })
-          .style("fill", function(d) { return z1(d.gender); })
-          .on("end",updateMedian3);
+          .attr("r",0)
+          .on("start", function(d) { 
+            cg.select("#g400946603")
+              .transition()
+                .duration(1000)
+                .attr("r",15)
+                .style("opacity",.8)
+                .on("end", function(d) {
+                  cg.selectAll("circle")
+                    .transition()
+                      .duration(1000)
+                      .delay(1000)
+                      .attr("cx", function(d) { if (d.gender == "mens") {return x2(d.higherScore);} else {return x2(d.higherScore+d3.extent(mData, function(d) {return d.higherScore;})[1]-30);}; })
+                      .attr("cy", function(d) { return y3(d.closeGameIndex); })
+                      .attr("r", 5)
+                      .style("stroke", function(d) { return z1(d.gender); })
+                      .style("fill", function(d) { return z1(d.gender); })
+                      .transition()
+                        .duration(1000)
+                        .delay(1000)
+                        .style("opacity",.5) 
+                        .on("end",updateMedian3);        
+              })
+          })
 
+
+/*
         cg.append("text")
            .attr("x", function(d) { return x(1175); })
            .attr("y", function(d) { return y3(yMedianValue); })
@@ -266,6 +279,7 @@ function ready(error, data, mData) {
           .transition()
             .duration(1000)
             .style("opacity",1);
+*/
       }
 
 
