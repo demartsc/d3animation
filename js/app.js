@@ -97,7 +97,7 @@ function ready(error, data, mData) {
       .datum(data)
       .attr("class","lineChart")
       .attr("fill", "none")
-      .attr("stroke", "steelblue")
+      .attr("stroke", "#767F8B")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -107,7 +107,7 @@ function ready(error, data, mData) {
       .datum(data)
       .attr("class","lineChart")
       .attr("fill", "none")
-      .attr("stroke", "orange")
+      .attr("stroke", "#D3D3D3")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -225,6 +225,7 @@ function ready(error, data, mData) {
       d3.selectAll(".bars").data([]).exit().remove(); // clean out dom elements
 
 
+      //left off here, we have some more work around the axis updates (which were taking long time) and splitting the median line into two 
       if (i == 1)
       {
         console.log("in if statement");
